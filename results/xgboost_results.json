@@ -1,0 +1,2550 @@
+{
+  "tox21": {
+    "random": [
+      {
+        "seed": 42,
+        "best_config": {
+          "n_estimators": 500,
+          "learning_rate": 0.05,
+          "max_depth": 3
+        },
+        "val_auroc": 0.7859824907446304,
+        "test_results": {
+          "NR-AR": {
+            "auroc": 0.7756,
+            "auprc": 0.5085,
+            "brier": 0.0646
+          },
+          "NR-AR-LBD": {
+            "auroc": 0.8383,
+            "auprc": 0.5569,
+            "brier": 0.0401
+          },
+          "NR-AhR": {
+            "auroc": 0.8097,
+            "auprc": 0.4013,
+            "brier": 0.133
+          },
+          "NR-Aromatase": {
+            "auroc": 0.8244,
+            "auprc": 0.3594,
+            "brier": 0.1
+          },
+          "NR-ER": {
+            "auroc": 0.718,
+            "auprc": 0.3726,
+            "brier": 0.157
+          },
+          "NR-ER-LBD": {
+            "auroc": 0.8531,
+            "auprc": 0.4044,
+            "brier": 0.0808
+          },
+          "NR-PPAR-gamma": {
+            "auroc": 0.8066,
+            "auprc": 0.4288,
+            "brier": 0.0677
+          },
+          "SR-ARE": {
+            "auroc": 0.6986,
+            "auprc": 0.2034,
+            "brier": 0.1846
+          },
+          "SR-ATAD5": {
+            "auroc": 0.7679,
+            "auprc": 0.3532,
+            "brier": 0.0877
+          },
+          "SR-HSE": {
+            "auroc": 0.7431,
+            "auprc": 0.1613,
+            "brier": 0.1315
+          },
+          "SR-MMP": {
+            "auroc": 0.8038,
+            "auprc": 0.4786,
+            "brier": 0.1402
+          },
+          "SR-p53": {
+            "auroc": 0.7818,
+            "auprc": 0.299,
+            "brier": 0.1222
+          },
+          "MACRO_AVG": {
+            "auroc": 0.7851,
+            "auprc": 0.3773,
+            "brier": 0.1091
+          }
+        }
+      },
+      {
+        "seed": 123,
+        "best_config": {
+          "n_estimators": 500,
+          "learning_rate": 0.05,
+          "max_depth": 3
+        },
+        "val_auroc": 0.7754022677135112,
+        "test_results": {
+          "NR-AR": {
+            "auroc": 0.7941,
+            "auprc": 0.5015,
+            "brier": 0.0583
+          },
+          "NR-AR-LBD": {
+            "auroc": 0.9666,
+            "auprc": 0.788,
+            "brier": 0.0359
+          },
+          "NR-AhR": {
+            "auroc": 0.8364,
+            "auprc": 0.4619,
+            "brier": 0.1223
+          },
+          "NR-Aromatase": {
+            "auroc": 0.7373,
+            "auprc": 0.2301,
+            "brier": 0.0913
+          },
+          "NR-ER": {
+            "auroc": 0.7035,
+            "auprc": 0.3332,
+            "brier": 0.1653
+          },
+          "NR-ER-LBD": {
+            "auroc": 0.8208,
+            "auprc": 0.3455,
+            "brier": 0.0867
+          },
+          "NR-PPAR-gamma": {
+            "auroc": 0.7267,
+            "auprc": 0.0872,
+            "brier": 0.0735
+          },
+          "SR-ARE": {
+            "auroc": 0.7465,
+            "auprc": 0.3128,
+            "brier": 0.1709
+          },
+          "SR-ATAD5": {
+            "auroc": 0.8475,
+            "auprc": 0.2906,
+            "brier": 0.0886
+          },
+          "SR-HSE": {
+            "auroc": 0.6264,
+            "auprc": 0.1812,
+            "brier": 0.1383
+          },
+          "SR-MMP": {
+            "auroc": 0.8476,
+            "auprc": 0.457,
+            "brier": 0.136
+          },
+          "SR-p53": {
+            "auroc": 0.8207,
+            "auprc": 0.2766,
+            "brier": 0.1102
+          },
+          "MACRO_AVG": {
+            "auroc": 0.7895,
+            "auprc": 0.3555,
+            "brier": 0.1064
+          }
+        }
+      },
+      {
+        "seed": 456,
+        "best_config": {
+          "n_estimators": 200,
+          "learning_rate": 0.05,
+          "max_depth": 3
+        },
+        "val_auroc": 0.7908187844614624,
+        "test_results": {
+          "NR-AR": {
+            "auroc": 0.8135,
+            "auprc": 0.4836,
+            "brier": 0.0921
+          },
+          "NR-AR-LBD": {
+            "auroc": 0.8164,
+            "auprc": 0.5168,
+            "brier": 0.065
+          },
+          "NR-AhR": {
+            "auroc": 0.8584,
+            "auprc": 0.46,
+            "brier": 0.1471
+          },
+          "NR-Aromatase": {
+            "auroc": 0.703,
+            "auprc": 0.1353,
+            "brier": 0.1375
+          },
+          "NR-ER": {
+            "auroc": 0.6672,
+            "auprc": 0.337,
+            "brier": 0.1837
+          },
+          "NR-ER-LBD": {
+            "auroc": 0.7354,
+            "auprc": 0.3892,
+            "brier": 0.1166
+          },
+          "NR-PPAR-gamma": {
+            "auroc": 0.8442,
+            "auprc": 0.31,
+            "brier": 0.1128
+          },
+          "SR-ARE": {
+            "auroc": 0.6892,
+            "auprc": 0.2549,
+            "brier": 0.2021
+          },
+          "SR-ATAD5": {
+            "auroc": 0.8904,
+            "auprc": 0.2372,
+            "brier": 0.13
+          },
+          "SR-HSE": {
+            "auroc": 0.6994,
+            "auprc": 0.1464,
+            "brier": 0.1643
+          },
+          "SR-MMP": {
+            "auroc": 0.8265,
+            "auprc": 0.536,
+            "brier": 0.1548
+          },
+          "SR-p53": {
+            "auroc": 0.8357,
+            "auprc": 0.3122,
+            "brier": 0.1484
+          },
+          "MACRO_AVG": {
+            "auroc": 0.7816,
+            "auprc": 0.3432,
+            "brier": 0.1379
+          }
+        }
+      },
+      {
+        "seed": 789,
+        "best_config": {
+          "n_estimators": 200,
+          "learning_rate": 0.05,
+          "max_depth": 3
+        },
+        "val_auroc": 0.7615830389422128,
+        "test_results": {
+          "NR-AR": {
+            "auroc": 0.7865,
+            "auprc": 0.5535,
+            "brier": 0.1001
+          },
+          "NR-AR-LBD": {
+            "auroc": 0.9094,
+            "auprc": 0.5311,
+            "brier": 0.0651
+          },
+          "NR-AhR": {
+            "auroc": 0.8448,
+            "auprc": 0.3879,
+            "brier": 0.1549
+          },
+          "NR-Aromatase": {
+            "auroc": 0.8283,
+            "auprc": 0.2313,
+            "brier": 0.1392
+          },
+          "NR-ER": {
+            "auroc": 0.7233,
+            "auprc": 0.4369,
+            "brier": 0.1899
+          },
+          "NR-ER-LBD": {
+            "auroc": 0.8358,
+            "auprc": 0.5797,
+            "brier": 0.12
+          },
+          "NR-PPAR-gamma": {
+            "auroc": 0.8626,
+            "auprc": 0.3167,
+            "brier": 0.11
+          },
+          "SR-ARE": {
+            "auroc": 0.6419,
+            "auprc": 0.2105,
+            "brier": 0.2031
+          },
+          "SR-ATAD5": {
+            "auroc": 0.7724,
+            "auprc": 0.2114,
+            "brier": 0.1351
+          },
+          "SR-HSE": {
+            "auroc": 0.7062,
+            "auprc": 0.1812,
+            "brier": 0.1717
+          },
+          "SR-MMP": {
+            "auroc": 0.8298,
+            "auprc": 0.4908,
+            "brier": 0.1598
+          },
+          "SR-p53": {
+            "auroc": 0.8303,
+            "auprc": 0.2244,
+            "brier": 0.151
+          },
+          "MACRO_AVG": {
+            "auroc": 0.7976,
+            "auprc": 0.363,
+            "brier": 0.1416
+          }
+        }
+      },
+      {
+        "seed": 1337,
+        "best_config": {
+          "n_estimators": 500,
+          "learning_rate": 0.1,
+          "max_depth": 6
+        },
+        "val_auroc": 0.7681980246321626,
+        "test_results": {
+          "NR-AR": {
+            "auroc": 0.7782,
+            "auprc": 0.5395,
+            "brier": 0.0329
+          },
+          "NR-AR-LBD": {
+            "auroc": 0.8446,
+            "auprc": 0.5362,
+            "brier": 0.0225
+          },
+          "NR-AhR": {
+            "auroc": 0.8623,
+            "auprc": 0.5267,
+            "brier": 0.0803
+          },
+          "NR-Aromatase": {
+            "auroc": 0.7568,
+            "auprc": 0.2842,
+            "brier": 0.0504
+          },
+          "NR-ER": {
+            "auroc": 0.6946,
+            "auprc": 0.3029,
+            "brier": 0.1157
+          },
+          "NR-ER-LBD": {
+            "auroc": 0.7636,
+            "auprc": 0.4064,
+            "brier": 0.049
+          },
+          "NR-PPAR-gamma": {
+            "auroc": 0.7399,
+            "auprc": 0.4272,
+            "brier": 0.0241
+          },
+          "SR-ARE": {
+            "auroc": 0.7547,
+            "auprc": 0.3985,
+            "brier": 0.1174
+          },
+          "SR-ATAD5": {
+            "auroc": 0.8673,
+            "auprc": 0.3516,
+            "brier": 0.0342
+          },
+          "SR-HSE": {
+            "auroc": 0.7317,
+            "auprc": 0.3213,
+            "brier": 0.0509
+          },
+          "SR-MMP": {
+            "auroc": 0.8335,
+            "auprc": 0.5312,
+            "brier": 0.097
+          },
+          "SR-p53": {
+            "auroc": 0.759,
+            "auprc": 0.2779,
+            "brier": 0.0663
+          },
+          "MACRO_AVG": {
+            "auroc": 0.7822,
+            "auprc": 0.4086,
+            "brier": 0.0617
+          }
+        }
+      }
+    ],
+    "scaffold": [
+      {
+        "seed": 42,
+        "best_config": {
+          "n_estimators": 200,
+          "learning_rate": 0.1,
+          "max_depth": 6
+        },
+        "val_auroc": 0.780199587844169,
+        "test_results": {
+          "NR-AR": {
+            "auroc": 0.8721,
+            "auprc": 0.5781,
+            "brier": 0.0429
+          },
+          "NR-AR-LBD": {
+            "auroc": 0.804,
+            "auprc": 0.4504,
+            "brier": 0.036
+          },
+          "NR-AhR": {
+            "auroc": 0.7493,
+            "auprc": 0.3665,
+            "brier": 0.1358
+          },
+          "NR-Aromatase": {
+            "auroc": 0.5509,
+            "auprc": 0.0804,
+            "brier": 0.0825
+          },
+          "NR-ER": {
+            "auroc": 0.6806,
+            "auprc": 0.4063,
+            "brier": 0.1426
+          },
+          "NR-ER-LBD": {
+            "auroc": 0.7319,
+            "auprc": 0.5196,
+            "brier": 0.0644
+          },
+          "NR-PPAR-gamma": {
+            "auroc": 0.6302,
+            "auprc": 0.1973,
+            "brier": 0.045
+          },
+          "SR-ARE": {
+            "auroc": 0.6866,
+            "auprc": 0.303,
+            "brier": 0.154
+          },
+          "SR-ATAD5": {
+            "auroc": 0.6277,
+            "auprc": 0.0822,
+            "brier": 0.0594
+          },
+          "SR-HSE": {
+            "auroc": 0.7256,
+            "auprc": 0.156,
+            "brier": 0.0845
+          },
+          "SR-MMP": {
+            "auroc": 0.7986,
+            "auprc": 0.4834,
+            "brier": 0.1263
+          },
+          "SR-p53": {
+            "auroc": 0.6026,
+            "auprc": 0.1529,
+            "brier": 0.1251
+          },
+          "MACRO_AVG": {
+            "auroc": 0.705,
+            "auprc": 0.3147,
+            "brier": 0.0915
+          }
+        }
+      },
+      {
+        "seed": 123,
+        "best_config": {
+          "n_estimators": 200,
+          "learning_rate": 0.05,
+          "max_depth": 3
+        },
+        "val_auroc": 0.7436767544307107,
+        "test_results": {
+          "NR-AR": {
+            "auroc": 0.8271,
+            "auprc": 0.4662,
+            "brier": 0.1024
+          },
+          "NR-AR-LBD": {
+            "auroc": 0.8566,
+            "auprc": 0.4143,
+            "brier": 0.0656
+          },
+          "NR-AhR": {
+            "auroc": 0.8073,
+            "auprc": 0.4141,
+            "brier": 0.136
+          },
+          "NR-Aromatase": {
+            "auroc": 0.6463,
+            "auprc": 0.1529,
+            "brier": 0.1439
+          },
+          "NR-ER": {
+            "auroc": 0.6367,
+            "auprc": 0.3535,
+            "brier": 0.1745
+          },
+          "NR-ER-LBD": {
+            "auroc": 0.6835,
+            "auprc": 0.375,
+            "brier": 0.1038
+          },
+          "NR-PPAR-gamma": {
+            "auroc": 0.7148,
+            "auprc": 0.1661,
+            "brier": 0.1044
+          },
+          "SR-ARE": {
+            "auroc": 0.6773,
+            "auprc": 0.2771,
+            "brier": 0.1983
+          },
+          "SR-ATAD5": {
+            "auroc": 0.5502,
+            "auprc": 0.0612,
+            "brier": 0.1152
+          },
+          "SR-HSE": {
+            "auroc": 0.701,
+            "auprc": 0.1386,
+            "brier": 0.1536
+          },
+          "SR-MMP": {
+            "auroc": 0.7653,
+            "auprc": 0.4684,
+            "brier": 0.1662
+          },
+          "SR-p53": {
+            "auroc": 0.7012,
+            "auprc": 0.1738,
+            "brier": 0.1571
+          },
+          "MACRO_AVG": {
+            "auroc": 0.7139,
+            "auprc": 0.2884,
+            "brier": 0.1351
+          }
+        }
+      },
+      {
+        "seed": 456,
+        "best_config": {
+          "n_estimators": 500,
+          "learning_rate": 0.05,
+          "max_depth": 3
+        },
+        "val_auroc": 0.7264132487480027,
+        "test_results": {
+          "NR-AR": {
+            "auroc": 0.5464,
+            "auprc": 0.0898,
+            "brier": 0.0376
+          },
+          "NR-AR-LBD": {
+            "auroc": 0.619,
+            "auprc": 0.0429,
+            "brier": 0.0195
+          },
+          "NR-AhR": {
+            "auroc": 0.8375,
+            "auprc": 0.3619,
+            "brier": 0.0442
+          },
+          "NR-Aromatase": {
+            "auroc": 0.7034,
+            "auprc": 0.1743,
+            "brier": 0.0619
+          },
+          "NR-ER": {
+            "auroc": 0.5735,
+            "auprc": 0.1402,
+            "brier": 0.1241
+          },
+          "NR-ER-LBD": {
+            "auroc": 0.6953,
+            "auprc": 0.179,
+            "brier": 0.0559
+          },
+          "NR-PPAR-gamma": {
+            "auroc": 0.7042,
+            "auprc": 0.0985,
+            "brier": 0.0333
+          },
+          "SR-ARE": {
+            "auroc": 0.6535,
+            "auprc": 0.173,
+            "brier": 0.1167
+          },
+          "SR-ATAD5": {
+            "auroc": 0.6305,
+            "auprc": 0.0823,
+            "brier": 0.0403
+          },
+          "SR-HSE": {
+            "auroc": 0.6456,
+            "auprc": 0.0925,
+            "brier": 0.064
+          },
+          "SR-MMP": {
+            "auroc": 0.7718,
+            "auprc": 0.2673,
+            "brier": 0.0656
+          },
+          "SR-p53": {
+            "auroc": 0.7321,
+            "auprc": 0.124,
+            "brier": 0.0534
+          },
+          "MACRO_AVG": {
+            "auroc": 0.6761,
+            "auprc": 0.1521,
+            "brier": 0.0597
+          }
+        }
+      },
+      {
+        "seed": 789,
+        "best_config": {
+          "n_estimators": 200,
+          "learning_rate": 0.05,
+          "max_depth": 3
+        },
+        "val_auroc": 0.7269201010602213,
+        "test_results": {
+          "NR-AR": {
+            "auroc": 0.8902,
+            "auprc": 0.7286,
+            "brier": 0.0942
+          },
+          "NR-AR-LBD": {
+            "auroc": 0.8488,
+            "auprc": 0.5245,
+            "brier": 0.0779
+          },
+          "NR-AhR": {
+            "auroc": 0.7873,
+            "auprc": 0.3234,
+            "brier": 0.1478
+          },
+          "NR-Aromatase": {
+            "auroc": 0.6943,
+            "auprc": 0.0958,
+            "brier": 0.1451
+          },
+          "NR-ER": {
+            "auroc": 0.662,
+            "auprc": 0.2602,
+            "brier": 0.1753
+          },
+          "NR-ER-LBD": {
+            "auroc": 0.6353,
+            "auprc": 0.2362,
+            "brier": 0.1025
+          },
+          "NR-PPAR-gamma": {
+            "auroc": 0.6386,
+            "auprc": 0.0975,
+            "brier": 0.0973
+          },
+          "SR-ARE": {
+            "auroc": 0.6466,
+            "auprc": 0.2273,
+            "brier": 0.1988
+          },
+          "SR-ATAD5": {
+            "auroc": 0.8299,
+            "auprc": 0.1364,
+            "brier": 0.1083
+          },
+          "SR-HSE": {
+            "auroc": 0.6806,
+            "auprc": 0.0719,
+            "brier": 0.1487
+          },
+          "SR-MMP": {
+            "auroc": 0.6659,
+            "auprc": 0.2838,
+            "brier": 0.1611
+          },
+          "SR-p53": {
+            "auroc": 0.7103,
+            "auprc": 0.2628,
+            "brier": 0.1488
+          },
+          "MACRO_AVG": {
+            "auroc": 0.7242,
+            "auprc": 0.2707,
+            "brier": 0.1338
+          }
+        }
+      },
+      {
+        "seed": 1337,
+        "best_config": {
+          "n_estimators": 500,
+          "learning_rate": 0.05,
+          "max_depth": 3
+        },
+        "val_auroc": 0.7547217554719743,
+        "test_results": {
+          "NR-AR": {
+            "auroc": 0.805,
+            "auprc": 0.6521,
+            "brier": 0.0816
+          },
+          "NR-AR-LBD": {
+            "auroc": 0.8711,
+            "auprc": 0.6587,
+            "brier": 0.0711
+          },
+          "NR-AhR": {
+            "auroc": 0.7845,
+            "auprc": 0.4559,
+            "brier": 0.1363
+          },
+          "NR-Aromatase": {
+            "auroc": 0.6331,
+            "auprc": 0.2033,
+            "brier": 0.1245
+          },
+          "NR-ER": {
+            "auroc": 0.6668,
+            "auprc": 0.3429,
+            "brier": 0.1738
+          },
+          "NR-ER-LBD": {
+            "auroc": 0.8093,
+            "auprc": 0.5359,
+            "brier": 0.0986
+          },
+          "NR-PPAR-gamma": {
+            "auroc": 0.7411,
+            "auprc": 0.123,
+            "brier": 0.0662
+          },
+          "SR-ARE": {
+            "auroc": 0.6313,
+            "auprc": 0.2936,
+            "brier": 0.1973
+          },
+          "SR-ATAD5": {
+            "auroc": 0.737,
+            "auprc": 0.1274,
+            "brier": 0.1032
+          },
+          "SR-HSE": {
+            "auroc": 0.6179,
+            "auprc": 0.1253,
+            "brier": 0.1305
+          },
+          "SR-MMP": {
+            "auroc": 0.691,
+            "auprc": 0.2909,
+            "brier": 0.1651
+          },
+          "SR-p53": {
+            "auroc": 0.6826,
+            "auprc": 0.1817,
+            "brier": 0.1571
+          },
+          "MACRO_AVG": {
+            "auroc": 0.7226,
+            "auprc": 0.3325,
+            "brier": 0.1254
+          }
+        }
+      }
+    ]
+  },
+  "clintox": {
+    "random": [
+      {
+        "seed": 42,
+        "best_config": {
+          "n_estimators": 200,
+          "learning_rate": 0.05,
+          "max_depth": 3
+        },
+        "val_auroc": 0.7866975130133025,
+        "test_results": {
+          "FDA_APPROVED": {
+            "auroc": 0.5511,
+            "auprc": 0.9914,
+            "brier": 0.1229
+          },
+          "CT_TOX": {
+            "auroc": 0.5463,
+            "auprc": 0.2788,
+            "brier": 0.0839
+          },
+          "MACRO_AVG": {
+            "auroc": 0.5487,
+            "auprc": 0.6351,
+            "brier": 0.1034
+          }
+        }
+      },
+      {
+        "seed": 123,
+        "best_config": {
+          "n_estimators": 500,
+          "learning_rate": 0.1,
+          "max_depth": 6
+        },
+        "val_auroc": 0.6836410984848484,
+        "test_results": {
+          "FDA_APPROVED": {
+            "auroc": 0.5985,
+            "auprc": 0.9702,
+            "brier": 0.074
+          },
+          "CT_TOX": {
+            "auroc": 0.6171,
+            "auprc": 0.1209,
+            "brier": 0.0638
+          },
+          "MACRO_AVG": {
+            "auroc": 0.6078,
+            "auprc": 0.5455,
+            "brier": 0.0689
+          }
+        }
+      },
+      {
+        "seed": 456,
+        "best_config": {
+          "n_estimators": 500,
+          "learning_rate": 0.05,
+          "max_depth": 3
+        },
+        "val_auroc": 0.7511334721258385,
+        "test_results": {
+          "FDA_APPROVED": {
+            "auroc": 0.6348,
+            "auprc": 0.9881,
+            "brier": 0.0744
+          },
+          "CT_TOX": {
+            "auroc": 0.5278,
+            "auprc": 0.1527,
+            "brier": 0.0461
+          },
+          "MACRO_AVG": {
+            "auroc": 0.5813,
+            "auprc": 0.5704,
+            "brier": 0.0602
+          }
+        }
+      },
+      {
+        "seed": 789,
+        "best_config": {
+          "n_estimators": 500,
+          "learning_rate": 0.1,
+          "max_depth": 6
+        },
+        "val_auroc": 0.7326355756997456,
+        "test_results": {
+          "FDA_APPROVED": {
+            "auroc": 0.4373,
+            "auprc": 0.9625,
+            "brier": 0.0969
+          },
+          "CT_TOX": {
+            "auroc": 0.6429,
+            "auprc": 0.2269,
+            "brier": 0.0561
+          },
+          "MACRO_AVG": {
+            "auroc": 0.5401,
+            "auprc": 0.5947,
+            "brier": 0.0765
+          }
+        }
+      },
+      {
+        "seed": 1337,
+        "best_config": {
+          "n_estimators": 500,
+          "learning_rate": 0.1,
+          "max_depth": 6
+        },
+        "val_auroc": 0.5668349429323968,
+        "test_results": {
+          "FDA_APPROVED": {
+            "auroc": 0.8667,
+            "auprc": 0.9947,
+            "brier": 0.0472
+          },
+          "CT_TOX": {
+            "auroc": 0.8519,
+            "auprc": 0.1421,
+            "brier": 0.0315
+          },
+          "MACRO_AVG": {
+            "auroc": 0.8593,
+            "auprc": 0.5684,
+            "brier": 0.0393
+          }
+        }
+      }
+    ],
+    "scaffold": [
+      {
+        "seed": 42,
+        "best_config": {
+          "n_estimators": 200,
+          "learning_rate": 0.1,
+          "max_depth": 6
+        },
+        "val_auroc": 0.5358718766613504,
+        "test_results": {
+          "FDA_APPROVED": {
+            "auroc": 0.6179,
+            "auprc": 0.9715,
+            "brier": 0.0606
+          },
+          "CT_TOX": {
+            "auroc": 0.3905,
+            "auprc": 0.1077,
+            "brier": 0.0557
+          },
+          "MACRO_AVG": {
+            "auroc": 0.5042,
+            "auprc": 0.5396,
+            "brier": 0.0582
+          }
+        }
+      },
+      {
+        "seed": 123,
+        "best_config": {
+          "n_estimators": 500,
+          "learning_rate": 0.1,
+          "max_depth": 6
+        },
+        "val_auroc": 0.47096587622903413,
+        "test_results": {
+          "FDA_APPROVED": {
+            "auroc": 0.8075,
+            "auprc": 0.9912,
+            "brier": 0.0587
+          },
+          "CT_TOX": {
+            "auroc": 0.7716,
+            "auprc": 0.1441,
+            "brier": 0.038
+          },
+          "MACRO_AVG": {
+            "auroc": 0.7896,
+            "auprc": 0.5676,
+            "brier": 0.0483
+          }
+        }
+      },
+      {
+        "seed": 456,
+        "best_config": {
+          "n_estimators": 500,
+          "learning_rate": 0.1,
+          "max_depth": 6
+        },
+        "val_auroc": 0.5564419770356124,
+        "test_results": {
+          "FDA_APPROVED": {
+            "auroc": 0.629,
+            "auprc": 0.9879,
+            "brier": 0.0361
+          },
+          "CT_TOX": {
+            "auroc": 0.8649,
+            "auprc": 0.1888,
+            "brier": 0.0274
+          },
+          "MACRO_AVG": {
+            "auroc": 0.747,
+            "auprc": 0.5884,
+            "brier": 0.0317
+          }
+        }
+      },
+      {
+        "seed": 789,
+        "best_config": {
+          "n_estimators": 200,
+          "learning_rate": 0.05,
+          "max_depth": 3
+        },
+        "val_auroc": 0.5568158436213991,
+        "test_results": {
+          "FDA_APPROVED": {
+            "auroc": 0.913,
+            "auprc": 0.9993,
+            "brier": 0.08
+          },
+          "CT_TOX": {
+            "auroc": 0.5907,
+            "auprc": 0.0444,
+            "brier": 0.079
+          },
+          "MACRO_AVG": {
+            "auroc": 0.7519,
+            "auprc": 0.5219,
+            "brier": 0.0795
+          }
+        }
+      },
+      {
+        "seed": 1337,
+        "best_config": {
+          "n_estimators": 500,
+          "learning_rate": 0.05,
+          "max_depth": 3
+        },
+        "val_auroc": 0.6234799922299923,
+        "test_results": {
+          "FDA_APPROVED": {
+            "auroc": 0.5491,
+            "auprc": 0.939,
+            "brier": 0.0981
+          },
+          "CT_TOX": {
+            "auroc": 0.6535,
+            "auprc": 0.3162,
+            "brier": 0.0615
+          },
+          "MACRO_AVG": {
+            "auroc": 0.6013,
+            "auprc": 0.6276,
+            "brier": 0.0798
+          }
+        }
+      }
+    ]
+  },
+  "sider": {
+    "random": [
+      {
+        "seed": 42,
+        "best_config": {
+          "n_estimators": 500,
+          "learning_rate": 0.1,
+          "max_depth": 6
+        },
+        "val_auroc": 0.6823304950636448,
+        "test_results": {
+          "Hepatobiliary disorders": {
+            "auroc": 0.7184,
+            "auprc": 0.7203,
+            "brier": 0.2365
+          },
+          "Metabolism and nutrition disorders": {
+            "auroc": 0.663,
+            "auprc": 0.8129,
+            "brier": 0.2205
+          },
+          "Product issues": {
+            "auroc": 0.7105,
+            "auprc": 0.0534,
+            "brier": 0.0328
+          },
+          "Eye disorders": {
+            "auroc": 0.644,
+            "auprc": 0.6634,
+            "brier": 0.2582
+          },
+          "Investigations": {
+            "auroc": 0.7162,
+            "auprc": 0.8969,
+            "brier": 0.1562
+          },
+          "Musculoskeletal and connective tissue disorders": {
+            "auroc": 0.6592,
+            "auprc": 0.7923,
+            "brier": 0.2222
+          },
+          "Gastrointestinal disorders": {
+            "auroc": 0.7293,
+            "auprc": 0.9297,
+            "brier": 0.1206
+          },
+          "Social circumstances": {
+            "auroc": 0.6158,
+            "auprc": 0.2554,
+            "brier": 0.1752
+          },
+          "Immune system disorders": {
+            "auroc": 0.6277,
+            "auprc": 0.7487,
+            "brier": 0.2221
+          },
+          "Reproductive system and breast disorders": {
+            "auroc": 0.7421,
+            "auprc": 0.7941,
+            "brier": 0.2146
+          },
+          "Neoplasms benign, malignant and unspecified (incl cysts and polyps)": {
+            "auroc": 0.6633,
+            "auprc": 0.5164,
+            "brier": 0.2145
+          },
+          "General disorders and administration site conditions": {
+            "auroc": 0.7281,
+            "auprc": 0.9433,
+            "brier": 0.1114
+          },
+          "Endocrine disorders": {
+            "auroc": 0.6936,
+            "auprc": 0.4453,
+            "brier": 0.2
+          },
+          "Surgical and medical procedures": {
+            "auroc": 0.5223,
+            "auprc": 0.2178,
+            "brier": 0.1678
+          },
+          "Vascular disorders": {
+            "auroc": 0.6597,
+            "auprc": 0.8593,
+            "brier": 0.1969
+          },
+          "Blood and lymphatic system disorders": {
+            "auroc": 0.7189,
+            "auprc": 0.8549,
+            "brier": 0.2195
+          },
+          "Skin and subcutaneous tissue disorders": {
+            "auroc": 0.6532,
+            "auprc": 0.9522,
+            "brier": 0.0772
+          },
+          "Congenital, familial and genetic disorders": {
+            "auroc": 0.6094,
+            "auprc": 0.2475,
+            "brier": 0.1916
+          },
+          "Infections and infestations": {
+            "auroc": 0.5626,
+            "auprc": 0.8017,
+            "brier": 0.2572
+          },
+          "Respiratory, thoracic and mediastinal disorders": {
+            "auroc": 0.668,
+            "auprc": 0.8127,
+            "brier": 0.2187
+          },
+          "Psychiatric disorders": {
+            "auroc": 0.6229,
+            "auprc": 0.7899,
+            "brier": 0.2567
+          },
+          "Renal and urinary disorders": {
+            "auroc": 0.6641,
+            "auprc": 0.7975,
+            "brier": 0.2442
+          },
+          "Pregnancy, puerperium and perinatal conditions": {
+            "auroc": 0.6429,
+            "auprc": 0.2358,
+            "brier": 0.0766
+          },
+          "Ear and labyrinth disorders": {
+            "auroc": 0.6565,
+            "auprc": 0.6627,
+            "brier": 0.2525
+          },
+          "Cardiac disorders": {
+            "auroc": 0.6827,
+            "auprc": 0.7799,
+            "brier": 0.2184
+          },
+          "Nervous system disorders": {
+            "auroc": 0.6957,
+            "auprc": 0.9494,
+            "brier": 0.1046
+          },
+          "Injury, poisoning and procedural complications": {
+            "auroc": 0.7119,
+            "auprc": 0.8676,
+            "brier": 0.2071
+          },
+          "MACRO_AVG": {
+            "auroc": 0.666,
+            "auprc": 0.6815,
+            "brier": 0.1879
+          }
+        }
+      },
+      {
+        "seed": 123,
+        "best_config": {
+          "n_estimators": 500,
+          "learning_rate": 0.1,
+          "max_depth": 6
+        },
+        "val_auroc": 0.6220005857224722,
+        "test_results": {
+          "Hepatobiliary disorders": {
+            "auroc": 0.6999,
+            "auprc": 0.7424,
+            "brier": 0.2332
+          },
+          "Metabolism and nutrition disorders": {
+            "auroc": 0.6883,
+            "auprc": 0.86,
+            "brier": 0.2086
+          },
+          "Product issues": {
+            "auroc": 0.6288,
+            "auprc": 0.0502,
+            "brier": 0.0224
+          },
+          "Eye disorders": {
+            "auroc": 0.6052,
+            "auprc": 0.6589,
+            "brier": 0.2695
+          },
+          "Investigations": {
+            "auroc": 0.7093,
+            "auprc": 0.9267,
+            "brier": 0.164
+          },
+          "Musculoskeletal and connective tissue disorders": {
+            "auroc": 0.6845,
+            "auprc": 0.8198,
+            "brier": 0.2104
+          },
+          "Gastrointestinal disorders": {
+            "auroc": 0.6936,
+            "auprc": 0.964,
+            "brier": 0.1243
+          },
+          "Social circumstances": {
+            "auroc": 0.5935,
+            "auprc": 0.33,
+            "brier": 0.1908
+          },
+          "Immune system disorders": {
+            "auroc": 0.6422,
+            "auprc": 0.7851,
+            "brier": 0.2293
+          },
+          "Reproductive system and breast disorders": {
+            "auroc": 0.7156,
+            "auprc": 0.7672,
+            "brier": 0.2311
+          },
+          "Neoplasms benign, malignant and unspecified (incl cysts and polyps)": {
+            "auroc": 0.7628,
+            "auprc": 0.616,
+            "brier": 0.1944
+          },
+          "General disorders and administration site conditions": {
+            "auroc": 0.6662,
+            "auprc": 0.9695,
+            "brier": 0.1366
+          },
+          "Endocrine disorders": {
+            "auroc": 0.6916,
+            "auprc": 0.5016,
+            "brier": 0.2063
+          },
+          "Surgical and medical procedures": {
+            "auroc": 0.606,
+            "auprc": 0.2393,
+            "brier": 0.1756
+          },
+          "Vascular disorders": {
+            "auroc": 0.6538,
+            "auprc": 0.885,
+            "brier": 0.1849
+          },
+          "Blood and lymphatic system disorders": {
+            "auroc": 0.7407,
+            "auprc": 0.8397,
+            "brier": 0.2159
+          },
+          "Skin and subcutaneous tissue disorders": {
+            "auroc": 0.6627,
+            "auprc": 0.9449,
+            "brier": 0.1134
+          },
+          "Congenital, familial and genetic disorders": {
+            "auroc": 0.6063,
+            "auprc": 0.2831,
+            "brier": 0.1932
+          },
+          "Infections and infestations": {
+            "auroc": 0.7221,
+            "auprc": 0.8877,
+            "brier": 0.2058
+          },
+          "Respiratory, thoracic and mediastinal disorders": {
+            "auroc": 0.6572,
+            "auprc": 0.7946,
+            "brier": 0.2262
+          },
+          "Psychiatric disorders": {
+            "auroc": 0.5993,
+            "auprc": 0.7647,
+            "brier": 0.2577
+          },
+          "Renal and urinary disorders": {
+            "auroc": 0.6962,
+            "auprc": 0.7536,
+            "brier": 0.2326
+          },
+          "Pregnancy, puerperium and perinatal conditions": {
+            "auroc": 0.5575,
+            "auprc": 0.2069,
+            "brier": 0.1534
+          },
+          "Ear and labyrinth disorders": {
+            "auroc": 0.6856,
+            "auprc": 0.6424,
+            "brier": 0.2453
+          },
+          "Cardiac disorders": {
+            "auroc": 0.6896,
+            "auprc": 0.8111,
+            "brier": 0.2239
+          },
+          "Nervous system disorders": {
+            "auroc": 0.7141,
+            "auprc": 0.9556,
+            "brier": 0.1134
+          },
+          "Injury, poisoning and procedural complications": {
+            "auroc": 0.5978,
+            "auprc": 0.7524,
+            "brier": 0.2502
+          },
+          "MACRO_AVG": {
+            "auroc": 0.6656,
+            "auprc": 0.6945,
+            "brier": 0.1931
+          }
+        }
+      },
+      {
+        "seed": 456,
+        "best_config": {
+          "n_estimators": 200,
+          "learning_rate": 0.05,
+          "max_depth": 3
+        },
+        "val_auroc": 0.6662135018857508,
+        "test_results": {
+          "Hepatobiliary disorders": {
+            "auroc": 0.6813,
+            "auprc": 0.69,
+            "brier": 0.225
+          },
+          "Metabolism and nutrition disorders": {
+            "auroc": 0.713,
+            "auprc": 0.8501,
+            "brier": 0.2105
+          },
+          "Product issues": {
+            "auroc": 0.5821,
+            "auprc": 0.0175,
+            "brier": 0.0359
+          },
+          "Eye disorders": {
+            "auroc": 0.5928,
+            "auprc": 0.7272,
+            "brier": 0.243
+          },
+          "Investigations": {
+            "auroc": 0.656,
+            "auprc": 0.8838,
+            "brier": 0.2014
+          },
+          "Musculoskeletal and connective tissue disorders": {
+            "auroc": 0.5974,
+            "auprc": 0.7611,
+            "brier": 0.2435
+          },
+          "Gastrointestinal disorders": {
+            "auroc": 0.7522,
+            "auprc": 0.9837,
+            "brier": 0.1233
+          },
+          "Social circumstances": {
+            "auroc": 0.5734,
+            "auprc": 0.3218,
+            "brier": 0.2084
+          },
+          "Immune system disorders": {
+            "auroc": 0.4905,
+            "auprc": 0.7567,
+            "brier": 0.2563
+          },
+          "Reproductive system and breast disorders": {
+            "auroc": 0.699,
+            "auprc": 0.7245,
+            "brier": 0.2227
+          },
+          "Neoplasms benign, malignant and unspecified (incl cysts and polyps)": {
+            "auroc": 0.5827,
+            "auprc": 0.4542,
+            "brier": 0.2228
+          },
+          "General disorders and administration site conditions": {
+            "auroc": 0.6125,
+            "auprc": 0.9347,
+            "brier": 0.1809
+          },
+          "Endocrine disorders": {
+            "auroc": 0.7539,
+            "auprc": 0.5286,
+            "brier": 0.1808
+          },
+          "Surgical and medical procedures": {
+            "auroc": 0.5378,
+            "auprc": 0.1729,
+            "brier": 0.212
+          },
+          "Vascular disorders": {
+            "auroc": 0.5186,
+            "auprc": 0.7691,
+            "brier": 0.2311
+          },
+          "Blood and lymphatic system disorders": {
+            "auroc": 0.6064,
+            "auprc": 0.7096,
+            "brier": 0.2357
+          },
+          "Skin and subcutaneous tissue disorders": {
+            "auroc": 0.418,
+            "auprc": 0.9343,
+            "brier": 0.1703
+          },
+          "Congenital, familial and genetic disorders": {
+            "auroc": 0.5824,
+            "auprc": 0.3377,
+            "brier": 0.2185
+          },
+          "Infections and infestations": {
+            "auroc": 0.5957,
+            "auprc": 0.7655,
+            "brier": 0.2338
+          },
+          "Respiratory, thoracic and mediastinal disorders": {
+            "auroc": 0.5448,
+            "auprc": 0.7718,
+            "brier": 0.2336
+          },
+          "Psychiatric disorders": {
+            "auroc": 0.5924,
+            "auprc": 0.8191,
+            "brier": 0.2291
+          },
+          "Renal and urinary disorders": {
+            "auroc": 0.6154,
+            "auprc": 0.7397,
+            "brier": 0.2403
+          },
+          "Pregnancy, puerperium and perinatal conditions": {
+            "auroc": 0.7245,
+            "auprc": 0.2445,
+            "brier": 0.1435
+          },
+          "Ear and labyrinth disorders": {
+            "auroc": 0.5316,
+            "auprc": 0.5115,
+            "brier": 0.2613
+          },
+          "Cardiac disorders": {
+            "auroc": 0.5891,
+            "auprc": 0.7795,
+            "brier": 0.2347
+          },
+          "Nervous system disorders": {
+            "auroc": 0.7701,
+            "auprc": 0.9838,
+            "brier": 0.1622
+          },
+          "Injury, poisoning and procedural complications": {
+            "auroc": 0.524,
+            "auprc": 0.6955,
+            "brier": 0.252
+          },
+          "MACRO_AVG": {
+            "auroc": 0.6088,
+            "auprc": 0.6618,
+            "brier": 0.2079
+          }
+        }
+      },
+      {
+        "seed": 789,
+        "best_config": {
+          "n_estimators": 500,
+          "learning_rate": 0.1,
+          "max_depth": 6
+        },
+        "val_auroc": 0.654568883686406,
+        "test_results": {
+          "Hepatobiliary disorders": {
+            "auroc": 0.7409,
+            "auprc": 0.7663,
+            "brier": 0.2195
+          },
+          "Metabolism and nutrition disorders": {
+            "auroc": 0.6385,
+            "auprc": 0.8247,
+            "brier": 0.2214
+          },
+          "Product issues": {
+            "auroc": 0.5677,
+            "auprc": 0.0247,
+            "brier": 0.0286
+          },
+          "Eye disorders": {
+            "auroc": 0.6359,
+            "auprc": 0.7085,
+            "brier": 0.261
+          },
+          "Investigations": {
+            "auroc": 0.7845,
+            "auprc": 0.9415,
+            "brier": 0.1595
+          },
+          "Musculoskeletal and connective tissue disorders": {
+            "auroc": 0.7562,
+            "auprc": 0.8454,
+            "brier": 0.191
+          },
+          "Gastrointestinal disorders": {
+            "auroc": 0.8039,
+            "auprc": 0.9778,
+            "brier": 0.1026
+          },
+          "Social circumstances": {
+            "auroc": 0.6539,
+            "auprc": 0.3475,
+            "brier": 0.173
+          },
+          "Immune system disorders": {
+            "auroc": 0.714,
+            "auprc": 0.8771,
+            "brier": 0.209
+          },
+          "Reproductive system and breast disorders": {
+            "auroc": 0.723,
+            "auprc": 0.7487,
+            "brier": 0.2372
+          },
+          "Neoplasms benign, malignant and unspecified (incl cysts and polyps)": {
+            "auroc": 0.5507,
+            "auprc": 0.3431,
+            "brier": 0.2405
+          },
+          "General disorders and administration site conditions": {
+            "auroc": 0.6157,
+            "auprc": 0.9159,
+            "brier": 0.1082
+          },
+          "Endocrine disorders": {
+            "auroc": 0.7131,
+            "auprc": 0.521,
+            "brier": 0.1574
+          },
+          "Surgical and medical procedures": {
+            "auroc": 0.5622,
+            "auprc": 0.227,
+            "brier": 0.1854
+          },
+          "Vascular disorders": {
+            "auroc": 0.7481,
+            "auprc": 0.913,
+            "brier": 0.1661
+          },
+          "Blood and lymphatic system disorders": {
+            "auroc": 0.741,
+            "auprc": 0.827,
+            "brier": 0.2061
+          },
+          "Skin and subcutaneous tissue disorders": {
+            "auroc": 0.7124,
+            "auprc": 0.9546,
+            "brier": 0.1118
+          },
+          "Congenital, familial and genetic disorders": {
+            "auroc": 0.5521,
+            "auprc": 0.1998,
+            "brier": 0.1952
+          },
+          "Infections and infestations": {
+            "auroc": 0.7143,
+            "auprc": 0.8344,
+            "brier": 0.2015
+          },
+          "Respiratory, thoracic and mediastinal disorders": {
+            "auroc": 0.6926,
+            "auprc": 0.8566,
+            "brier": 0.22
+          },
+          "Psychiatric disorders": {
+            "auroc": 0.72,
+            "auprc": 0.8577,
+            "brier": 0.202
+          },
+          "Renal and urinary disorders": {
+            "auroc": 0.664,
+            "auprc": 0.7787,
+            "brier": 0.2354
+          },
+          "Pregnancy, puerperium and perinatal conditions": {
+            "auroc": 0.4444,
+            "auprc": 0.0622,
+            "brier": 0.1036
+          },
+          "Ear and labyrinth disorders": {
+            "auroc": 0.6769,
+            "auprc": 0.6788,
+            "brier": 0.2352
+          },
+          "Cardiac disorders": {
+            "auroc": 0.7843,
+            "auprc": 0.8862,
+            "brier": 0.1803
+          },
+          "Nervous system disorders": {
+            "auroc": 0.754,
+            "auprc": 0.9705,
+            "brier": 0.121
+          },
+          "Injury, poisoning and procedural complications": {
+            "auroc": 0.5804,
+            "auprc": 0.8177,
+            "brier": 0.2715
+          },
+          "MACRO_AVG": {
+            "auroc": 0.6757,
+            "auprc": 0.6928,
+            "brier": 0.1831
+          }
+        }
+      },
+      {
+        "seed": 1337,
+        "best_config": {
+          "n_estimators": 500,
+          "learning_rate": 0.1,
+          "max_depth": 6
+        },
+        "val_auroc": 0.67503458246535,
+        "test_results": {
+          "Hepatobiliary disorders": {
+            "auroc": 0.7022,
+            "auprc": 0.6898,
+            "brier": 0.2349
+          },
+          "Metabolism and nutrition disorders": {
+            "auroc": 0.5596,
+            "auprc": 0.8153,
+            "brier": 0.2474
+          },
+          "Product issues": {
+            "auroc": 0.3582,
+            "auprc": 0.0115,
+            "brier": 0.0146
+          },
+          "Eye disorders": {
+            "auroc": 0.6651,
+            "auprc": 0.7275,
+            "brier": 0.2497
+          },
+          "Investigations": {
+            "auroc": 0.7088,
+            "auprc": 0.863,
+            "brier": 0.1598
+          },
+          "Musculoskeletal and connective tissue disorders": {
+            "auroc": 0.6363,
+            "auprc": 0.7761,
+            "brier": 0.2473
+          },
+          "Gastrointestinal disorders": {
+            "auroc": 0.7615,
+            "auprc": 0.9629,
+            "brier": 0.085
+          },
+          "Social circumstances": {
+            "auroc": 0.5345,
+            "auprc": 0.2671,
+            "brier": 0.2434
+          },
+          "Immune system disorders": {
+            "auroc": 0.5737,
+            "auprc": 0.7664,
+            "brier": 0.2608
+          },
+          "Reproductive system and breast disorders": {
+            "auroc": 0.681,
+            "auprc": 0.6628,
+            "brier": 0.2549
+          },
+          "Neoplasms benign, malignant and unspecified (incl cysts and polyps)": {
+            "auroc": 0.6986,
+            "auprc": 0.4514,
+            "brier": 0.2171
+          },
+          "General disorders and administration site conditions": {
+            "auroc": 0.7511,
+            "auprc": 0.9484,
+            "brier": 0.1048
+          },
+          "Endocrine disorders": {
+            "auroc": 0.7121,
+            "auprc": 0.5055,
+            "brier": 0.1829
+          },
+          "Surgical and medical procedures": {
+            "auroc": 0.5571,
+            "auprc": 0.3106,
+            "brier": 0.1635
+          },
+          "Vascular disorders": {
+            "auroc": 0.6115,
+            "auprc": 0.8788,
+            "brier": 0.2085
+          },
+          "Blood and lymphatic system disorders": {
+            "auroc": 0.6901,
+            "auprc": 0.7837,
+            "brier": 0.2321
+          },
+          "Skin and subcutaneous tissue disorders": {
+            "auroc": 0.4587,
+            "auprc": 0.9179,
+            "brier": 0.0865
+          },
+          "Congenital, familial and genetic disorders": {
+            "auroc": 0.4745,
+            "auprc": 0.2112,
+            "brier": 0.2228
+          },
+          "Infections and infestations": {
+            "auroc": 0.6611,
+            "auprc": 0.8038,
+            "brier": 0.2134
+          },
+          "Respiratory, thoracic and mediastinal disorders": {
+            "auroc": 0.6687,
+            "auprc": 0.8544,
+            "brier": 0.2248
+          },
+          "Psychiatric disorders": {
+            "auroc": 0.5682,
+            "auprc": 0.7648,
+            "brier": 0.2705
+          },
+          "Renal and urinary disorders": {
+            "auroc": 0.6988,
+            "auprc": 0.8214,
+            "brier": 0.2198
+          },
+          "Pregnancy, puerperium and perinatal conditions": {
+            "auroc": 0.5389,
+            "auprc": 0.2342,
+            "brier": 0.1377
+          },
+          "Ear and labyrinth disorders": {
+            "auroc": 0.5771,
+            "auprc": 0.5906,
+            "brier": 0.2949
+          },
+          "Cardiac disorders": {
+            "auroc": 0.7453,
+            "auprc": 0.8601,
+            "brier": 0.1968
+          },
+          "Nervous system disorders": {
+            "auroc": 0.6569,
+            "auprc": 0.9559,
+            "brier": 0.1155
+          },
+          "Injury, poisoning and procedural complications": {
+            "auroc": 0.5534,
+            "auprc": 0.7089,
+            "brier": 0.2767
+          },
+          "MACRO_AVG": {
+            "auroc": 0.6223,
+            "auprc": 0.672,
+            "brier": 0.1987
+          }
+        }
+      }
+    ],
+    "scaffold": [
+      {
+        "seed": 42,
+        "best_config": {
+          "n_estimators": 500,
+          "learning_rate": 0.1,
+          "max_depth": 6
+        },
+        "val_auroc": 0.6629104295786348,
+        "test_results": {
+          "Hepatobiliary disorders": {
+            "auroc": 0.667,
+            "auprc": 0.7727,
+            "brier": 0.2419
+          },
+          "Metabolism and nutrition disorders": {
+            "auroc": 0.4988,
+            "auprc": 0.8004,
+            "brier": 0.2487
+          },
+          "Product issues": {
+            "auroc": 0.058,
+            "auprc": 0.0076,
+            "brier": 0.0073
+          },
+          "Eye disorders": {
+            "auroc": 0.5608,
+            "auprc": 0.6867,
+            "brier": 0.316
+          },
+          "Investigations": {
+            "auroc": 0.6379,
+            "auprc": 0.928,
+            "brier": 0.1376
+          },
+          "Musculoskeletal and connective tissue disorders": {
+            "auroc": 0.5691,
+            "auprc": 0.8242,
+            "brier": 0.2256
+          },
+          "Gastrointestinal disorders": {
+            "auroc": 0.6015,
+            "auprc": 0.978,
+            "brier": 0.0842
+          },
+          "Social circumstances": {
+            "auroc": 0.6305,
+            "auprc": 0.392,
+            "brier": 0.1951
+          },
+          "Immune system disorders": {
+            "auroc": 0.6046,
+            "auprc": 0.8158,
+            "brier": 0.1922
+          },
+          "Reproductive system and breast disorders": {
+            "auroc": 0.6204,
+            "auprc": 0.7996,
+            "brier": 0.2724
+          },
+          "Neoplasms benign, malignant and unspecified (incl cysts and polyps)": {
+            "auroc": 0.6204,
+            "auprc": 0.4843,
+            "brier": 0.2407
+          },
+          "General disorders and administration site conditions": {
+            "auroc": 0.6217,
+            "auprc": 0.9463,
+            "brier": 0.1022
+          },
+          "Endocrine disorders": {
+            "auroc": 0.7081,
+            "auprc": 0.4721,
+            "brier": 0.1787
+          },
+          "Surgical and medical procedures": {
+            "auroc": 0.5063,
+            "auprc": 0.2253,
+            "brier": 0.2022
+          },
+          "Vascular disorders": {
+            "auroc": 0.6258,
+            "auprc": 0.9042,
+            "brier": 0.1602
+          },
+          "Blood and lymphatic system disorders": {
+            "auroc": 0.7016,
+            "auprc": 0.8458,
+            "brier": 0.211
+          },
+          "Skin and subcutaneous tissue disorders": {
+            "auroc": 0.495,
+            "auprc": 0.9621,
+            "brier": 0.0589
+          },
+          "Congenital, familial and genetic disorders": {
+            "auroc": 0.5833,
+            "auprc": 0.2672,
+            "brier": 0.1665
+          },
+          "Infections and infestations": {
+            "auroc": 0.6032,
+            "auprc": 0.8047,
+            "brier": 0.2272
+          },
+          "Respiratory, thoracic and mediastinal disorders": {
+            "auroc": 0.6262,
+            "auprc": 0.8564,
+            "brier": 0.2195
+          },
+          "Psychiatric disorders": {
+            "auroc": 0.5631,
+            "auprc": 0.8384,
+            "brier": 0.2089
+          },
+          "Renal and urinary disorders": {
+            "auroc": 0.6474,
+            "auprc": 0.8374,
+            "brier": 0.2167
+          },
+          "Pregnancy, puerperium and perinatal conditions": {
+            "auroc": 0.6201,
+            "auprc": 0.1525,
+            "brier": 0.1088
+          },
+          "Ear and labyrinth disorders": {
+            "auroc": 0.5894,
+            "auprc": 0.5925,
+            "brier": 0.2966
+          },
+          "Cardiac disorders": {
+            "auroc": 0.6831,
+            "auprc": 0.8272,
+            "brier": 0.2085
+          },
+          "Nervous system disorders": {
+            "auroc": 0.6376,
+            "auprc": 0.9605,
+            "brier": 0.0811
+          },
+          "Injury, poisoning and procedural complications": {
+            "auroc": 0.7093,
+            "auprc": 0.8433,
+            "brier": 0.2021
+          },
+          "MACRO_AVG": {
+            "auroc": 0.5922,
+            "auprc": 0.6972,
+            "brier": 0.1856
+          }
+        }
+      },
+      {
+        "seed": 123,
+        "best_config": {
+          "n_estimators": 200,
+          "learning_rate": 0.1,
+          "max_depth": 6
+        },
+        "val_auroc": 0.6253507355857254,
+        "test_results": {
+          "Hepatobiliary disorders": {
+            "auroc": 0.6835,
+            "auprc": 0.7224,
+            "brier": 0.2363
+          },
+          "Metabolism and nutrition disorders": {
+            "auroc": 0.555,
+            "auprc": 0.7471,
+            "brier": 0.2407
+          },
+          "Product issues": {
+            "auroc": 0.6667,
+            "auprc": 0.0418,
+            "brier": 0.0227
+          },
+          "Eye disorders": {
+            "auroc": 0.692,
+            "auprc": 0.739,
+            "brier": 0.2184
+          },
+          "Investigations": {
+            "auroc": 0.6785,
+            "auprc": 0.9362,
+            "brier": 0.1352
+          },
+          "Musculoskeletal and connective tissue disorders": {
+            "auroc": 0.6308,
+            "auprc": 0.8427,
+            "brier": 0.199
+          },
+          "Gastrointestinal disorders": {
+            "auroc": 0.7554,
+            "auprc": 0.9874,
+            "brier": 0.0857
+          },
+          "Social circumstances": {
+            "auroc": 0.5242,
+            "auprc": 0.1725,
+            "brier": 0.2082
+          },
+          "Immune system disorders": {
+            "auroc": 0.6317,
+            "auprc": 0.8132,
+            "brier": 0.2177
+          },
+          "Reproductive system and breast disorders": {
+            "auroc": 0.6849,
+            "auprc": 0.6983,
+            "brier": 0.2422
+          },
+          "Neoplasms benign, malignant and unspecified (incl cysts and polyps)": {
+            "auroc": 0.7857,
+            "auprc": 0.5871,
+            "brier": 0.1737
+          },
+          "General disorders and administration site conditions": {
+            "auroc": 0.5619,
+            "auprc": 0.9659,
+            "brier": 0.1082
+          },
+          "Endocrine disorders": {
+            "auroc": 0.7162,
+            "auprc": 0.3888,
+            "brier": 0.1678
+          },
+          "Surgical and medical procedures": {
+            "auroc": 0.4196,
+            "auprc": 0.1163,
+            "brier": 0.1967
+          },
+          "Vascular disorders": {
+            "auroc": 0.5744,
+            "auprc": 0.8372,
+            "brier": 0.191
+          },
+          "Blood and lymphatic system disorders": {
+            "auroc": 0.7148,
+            "auprc": 0.8524,
+            "brier": 0.2063
+          },
+          "Skin and subcutaneous tissue disorders": {
+            "auroc": 0.6016,
+            "auprc": 0.9666,
+            "brier": 0.0995
+          },
+          "Congenital, familial and genetic disorders": {
+            "auroc": 0.5504,
+            "auprc": 0.271,
+            "brier": 0.1831
+          },
+          "Infections and infestations": {
+            "auroc": 0.6132,
+            "auprc": 0.7696,
+            "brier": 0.2166
+          },
+          "Respiratory, thoracic and mediastinal disorders": {
+            "auroc": 0.6151,
+            "auprc": 0.832,
+            "brier": 0.2055
+          },
+          "Psychiatric disorders": {
+            "auroc": 0.72,
+            "auprc": 0.8838,
+            "brier": 0.1736
+          },
+          "Renal and urinary disorders": {
+            "auroc": 0.5398,
+            "auprc": 0.7228,
+            "brier": 0.2417
+          },
+          "Pregnancy, puerperium and perinatal conditions": {
+            "auroc": 0.528,
+            "auprc": 0.1547,
+            "brier": 0.1081
+          },
+          "Ear and labyrinth disorders": {
+            "auroc": 0.6532,
+            "auprc": 0.6284,
+            "brier": 0.2424
+          },
+          "Cardiac disorders": {
+            "auroc": 0.7051,
+            "auprc": 0.8685,
+            "brier": 0.1957
+          },
+          "Nervous system disorders": {
+            "auroc": 0.8883,
+            "auprc": 0.9929,
+            "brier": 0.0751
+          },
+          "Injury, poisoning and procedural complications": {
+            "auroc": 0.6188,
+            "auprc": 0.7735,
+            "brier": 0.2273
+          },
+          "MACRO_AVG": {
+            "auroc": 0.6411,
+            "auprc": 0.6782,
+            "brier": 0.1785
+          }
+        }
+      },
+      {
+        "seed": 456,
+        "best_config": {
+          "n_estimators": 200,
+          "learning_rate": 0.05,
+          "max_depth": 3
+        },
+        "val_auroc": 0.6252765673179981,
+        "test_results": {
+          "Hepatobiliary disorders": {
+            "auroc": 0.7193,
+            "auprc": 0.7561,
+            "brier": 0.2121
+          },
+          "Metabolism and nutrition disorders": {
+            "auroc": 0.5067,
+            "auprc": 0.7763,
+            "brier": 0.228
+          },
+          "Product issues": {
+            "auroc": 0.7109,
+            "auprc": 0.0492,
+            "brier": 0.0524
+          },
+          "Eye disorders": {
+            "auroc": 0.6304,
+            "auprc": 0.7644,
+            "brier": 0.2238
+          },
+          "Investigations": {
+            "auroc": 0.6224,
+            "auprc": 0.9089,
+            "brier": 0.1831
+          },
+          "Musculoskeletal and connective tissue disorders": {
+            "auroc": 0.5734,
+            "auprc": 0.8513,
+            "brier": 0.2185
+          },
+          "Gastrointestinal disorders": {
+            "auroc": 0.6776,
+            "auprc": 0.9574,
+            "brier": 0.1204
+          },
+          "Social circumstances": {
+            "auroc": 0.6194,
+            "auprc": 0.369,
+            "brier": 0.2291
+          },
+          "Immune system disorders": {
+            "auroc": 0.5278,
+            "auprc": 0.7558,
+            "brier": 0.2456
+          },
+          "Reproductive system and breast disorders": {
+            "auroc": 0.6404,
+            "auprc": 0.651,
+            "brier": 0.2342
+          },
+          "Neoplasms benign, malignant and unspecified (incl cysts and polyps)": {
+            "auroc": 0.7285,
+            "auprc": 0.6474,
+            "brier": 0.206
+          },
+          "General disorders and administration site conditions": {
+            "auroc": 0.6499,
+            "auprc": 0.9699,
+            "brier": 0.1315
+          },
+          "Endocrine disorders": {
+            "auroc": 0.698,
+            "auprc": 0.6091,
+            "brier": 0.2139
+          },
+          "Surgical and medical procedures": {
+            "auroc": 0.5805,
+            "auprc": 0.1687,
+            "brier": 0.186
+          },
+          "Vascular disorders": {
+            "auroc": 0.5849,
+            "auprc": 0.817,
+            "brier": 0.2315
+          },
+          "Blood and lymphatic system disorders": {
+            "auroc": 0.7141,
+            "auprc": 0.8435,
+            "brier": 0.2184
+          },
+          "Skin and subcutaneous tissue disorders": {
+            "auroc": 0.498,
+            "auprc": 0.9381,
+            "brier": 0.1239
+          },
+          "Congenital, familial and genetic disorders": {
+            "auroc": 0.5339,
+            "auprc": 0.2647,
+            "brier": 0.2299
+          },
+          "Infections and infestations": {
+            "auroc": 0.6117,
+            "auprc": 0.8211,
+            "brier": 0.2045
+          },
+          "Respiratory, thoracic and mediastinal disorders": {
+            "auroc": 0.5042,
+            "auprc": 0.8151,
+            "brier": 0.2408
+          },
+          "Psychiatric disorders": {
+            "auroc": 0.5033,
+            "auprc": 0.7532,
+            "brier": 0.2423
+          },
+          "Renal and urinary disorders": {
+            "auroc": 0.6811,
+            "auprc": 0.8363,
+            "brier": 0.222
+          },
+          "Pregnancy, puerperium and perinatal conditions": {
+            "auroc": 0.744,
+            "auprc": 0.3044,
+            "brier": 0.1541
+          },
+          "Ear and labyrinth disorders": {
+            "auroc": 0.5085,
+            "auprc": 0.5749,
+            "brier": 0.2704
+          },
+          "Cardiac disorders": {
+            "auroc": 0.6135,
+            "auprc": 0.7853,
+            "brier": 0.2449
+          },
+          "Nervous system disorders": {
+            "auroc": 0.5463,
+            "auprc": 0.9473,
+            "brier": 0.1381
+          },
+          "Injury, poisoning and procedural complications": {
+            "auroc": 0.5556,
+            "auprc": 0.8144,
+            "brier": 0.2346
+          },
+          "MACRO_AVG": {
+            "auroc": 0.6105,
+            "auprc": 0.6944,
+            "brier": 0.2015
+          }
+        }
+      },
+      {
+        "seed": 789,
+        "best_config": {
+          "n_estimators": 500,
+          "learning_rate": 0.05,
+          "max_depth": 3
+        },
+        "val_auroc": 0.6326927267526854,
+        "test_results": {
+          "Hepatobiliary disorders": {
+            "auroc": 0.6692,
+            "auprc": 0.7279,
+            "brier": 0.2216
+          },
+          "Metabolism and nutrition disorders": {
+            "auroc": 0.571,
+            "auprc": 0.7984,
+            "brier": 0.2273
+          },
+          "Product issues": {
+            "auroc": 0.2052,
+            "auprc": 0.0224,
+            "brier": 0.0355
+          },
+          "Eye disorders": {
+            "auroc": 0.6981,
+            "auprc": 0.8051,
+            "brier": 0.2212
+          },
+          "Investigations": {
+            "auroc": 0.6914,
+            "auprc": 0.9106,
+            "brier": 0.1672
+          },
+          "Musculoskeletal and connective tissue disorders": {
+            "auroc": 0.612,
+            "auprc": 0.8001,
+            "brier": 0.2258
+          },
+          "Gastrointestinal disorders": {
+            "auroc": 0.4498,
+            "auprc": 0.9352,
+            "brier": 0.1358
+          },
+          "Social circumstances": {
+            "auroc": 0.6854,
+            "auprc": 0.3299,
+            "brier": 0.1949
+          },
+          "Immune system disorders": {
+            "auroc": 0.5492,
+            "auprc": 0.8189,
+            "brier": 0.2364
+          },
+          "Reproductive system and breast disorders": {
+            "auroc": 0.697,
+            "auprc": 0.7175,
+            "brier": 0.2234
+          },
+          "Neoplasms benign, malignant and unspecified (incl cysts and polyps)": {
+            "auroc": 0.6412,
+            "auprc": 0.4605,
+            "brier": 0.2012
+          },
+          "General disorders and administration site conditions": {
+            "auroc": 0.7361,
+            "auprc": 0.9541,
+            "brier": 0.1009
+          },
+          "Endocrine disorders": {
+            "auroc": 0.6667,
+            "auprc": 0.4535,
+            "brier": 0.1809
+          },
+          "Surgical and medical procedures": {
+            "auroc": 0.5394,
+            "auprc": 0.2567,
+            "brier": 0.2193
+          },
+          "Vascular disorders": {
+            "auroc": 0.6104,
+            "auprc": 0.8861,
+            "brier": 0.2124
+          },
+          "Blood and lymphatic system disorders": {
+            "auroc": 0.6668,
+            "auprc": 0.78,
+            "brier": 0.2189
+          },
+          "Skin and subcutaneous tissue disorders": {
+            "auroc": 0.6988,
+            "auprc": 0.9704,
+            "brier": 0.1055
+          },
+          "Congenital, familial and genetic disorders": {
+            "auroc": 0.5436,
+            "auprc": 0.178,
+            "brier": 0.1761
+          },
+          "Infections and infestations": {
+            "auroc": 0.6519,
+            "auprc": 0.8321,
+            "brier": 0.2091
+          },
+          "Respiratory, thoracic and mediastinal disorders": {
+            "auroc": 0.6578,
+            "auprc": 0.8442,
+            "brier": 0.2022
+          },
+          "Psychiatric disorders": {
+            "auroc": 0.6638,
+            "auprc": 0.8787,
+            "brier": 0.1995
+          },
+          "Renal and urinary disorders": {
+            "auroc": 0.666,
+            "auprc": 0.7997,
+            "brier": 0.2152
+          },
+          "Pregnancy, puerperium and perinatal conditions": {
+            "auroc": 0.6457,
+            "auprc": 0.1431,
+            "brier": 0.1313
+          },
+          "Ear and labyrinth disorders": {
+            "auroc": 0.5692,
+            "auprc": 0.5543,
+            "brier": 0.2588
+          },
+          "Cardiac disorders": {
+            "auroc": 0.6069,
+            "auprc": 0.8202,
+            "brier": 0.2308
+          },
+          "Nervous system disorders": {
+            "auroc": 0.6796,
+            "auprc": 0.9797,
+            "brier": 0.1098
+          },
+          "Injury, poisoning and procedural complications": {
+            "auroc": 0.5837,
+            "auprc": 0.7395,
+            "brier": 0.2382
+          },
+          "MACRO_AVG": {
+            "auroc": 0.6169,
+            "auprc": 0.6814,
+            "brier": 0.1889
+          }
+        }
+      },
+      {
+        "seed": 1337,
+        "best_config": {
+          "n_estimators": 500,
+          "learning_rate": 0.05,
+          "max_depth": 3
+        },
+        "val_auroc": 0.632610978341484,
+        "test_results": {
+          "Hepatobiliary disorders": {
+            "auroc": 0.6437,
+            "auprc": 0.7365,
+            "brier": 0.2305
+          },
+          "Metabolism and nutrition disorders": {
+            "auroc": 0.5057,
+            "auprc": 0.687,
+            "brier": 0.2458
+          },
+          "Product issues": {
+            "auroc": 0.8577,
+            "auprc": 0.0476,
+            "brier": 0.0243
+          },
+          "Eye disorders": {
+            "auroc": 0.5889,
+            "auprc": 0.6739,
+            "brier": 0.2544
+          },
+          "Investigations": {
+            "auroc": 0.5017,
+            "auprc": 0.868,
+            "brier": 0.1683
+          },
+          "Musculoskeletal and connective tissue disorders": {
+            "auroc": 0.6104,
+            "auprc": 0.8351,
+            "brier": 0.2212
+          },
+          "Gastrointestinal disorders": {
+            "auroc": 0.8148,
+            "auprc": 0.9834,
+            "brier": 0.1097
+          },
+          "Social circumstances": {
+            "auroc": 0.6656,
+            "auprc": 0.4567,
+            "brier": 0.1936
+          },
+          "Immune system disorders": {
+            "auroc": 0.6176,
+            "auprc": 0.8201,
+            "brier": 0.2117
+          },
+          "Reproductive system and breast disorders": {
+            "auroc": 0.6318,
+            "auprc": 0.8034,
+            "brier": 0.2329
+          },
+          "Neoplasms benign, malignant and unspecified (incl cysts and polyps)": {
+            "auroc": 0.6837,
+            "auprc": 0.5418,
+            "brier": 0.2239
+          },
+          "General disorders and administration site conditions": {
+            "auroc": 0.5176,
+            "auprc": 0.9288,
+            "brier": 0.1654
+          },
+          "Endocrine disorders": {
+            "auroc": 0.6683,
+            "auprc": 0.399,
+            "brier": 0.2169
+          },
+          "Surgical and medical procedures": {
+            "auroc": 0.5474,
+            "auprc": 0.1182,
+            "brier": 0.1789
+          },
+          "Vascular disorders": {
+            "auroc": 0.6034,
+            "auprc": 0.8712,
+            "brier": 0.1992
+          },
+          "Blood and lymphatic system disorders": {
+            "auroc": 0.6473,
+            "auprc": 0.7261,
+            "brier": 0.2327
+          },
+          "Skin and subcutaneous tissue disorders": {
+            "auroc": 0.6007,
+            "auprc": 0.9797,
+            "brier": 0.0734
+          },
+          "Congenital, familial and genetic disorders": {
+            "auroc": 0.5818,
+            "auprc": 0.2197,
+            "brier": 0.1948
+          },
+          "Infections and infestations": {
+            "auroc": 0.461,
+            "auprc": 0.7327,
+            "brier": 0.257
+          },
+          "Respiratory, thoracic and mediastinal disorders": {
+            "auroc": 0.6223,
+            "auprc": 0.7931,
+            "brier": 0.2182
+          },
+          "Psychiatric disorders": {
+            "auroc": 0.5267,
+            "auprc": 0.7503,
+            "brier": 0.2434
+          },
+          "Renal and urinary disorders": {
+            "auroc": 0.6438,
+            "auprc": 0.799,
+            "brier": 0.2279
+          },
+          "Pregnancy, puerperium and perinatal conditions": {
+            "auroc": 0.5484,
+            "auprc": 0.1265,
+            "brier": 0.148
+          },
+          "Ear and labyrinth disorders": {
+            "auroc": 0.705,
+            "auprc": 0.6613,
+            "brier": 0.2226
+          },
+          "Cardiac disorders": {
+            "auroc": 0.6477,
+            "auprc": 0.8446,
+            "brier": 0.2134
+          },
+          "Nervous system disorders": {
+            "auroc": 0.7127,
+            "auprc": 0.9729,
+            "brier": 0.1036
+          },
+          "Injury, poisoning and procedural complications": {
+            "auroc": 0.6334,
+            "auprc": 0.7682,
+            "brier": 0.2262
+          },
+          "MACRO_AVG": {
+            "auroc": 0.6218,
+            "auprc": 0.672,
+            "brier": 0.194
+          }
+        }
+      }
+    ]
+  }
+}

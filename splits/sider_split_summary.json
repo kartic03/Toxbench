@@ -1,0 +1,92 @@
+[
+  {
+    "dataset": "sider",
+    "seed": 42,
+    "random": {
+      "train": 1080,
+      "val": 135,
+      "test": 135
+    },
+    "scaffold": {
+      "train": 1076,
+      "val": 135,
+      "test": 139
+    },
+    "leakage": {
+      "random": 0,
+      "scaffold": 0
+    }
+  },
+  {
+    "dataset": "sider",
+    "seed": 123,
+    "random": {
+      "train": 1080,
+      "val": 135,
+      "test": 135
+    },
+    "scaffold": {
+      "train": 1080,
+      "val": 135,
+      "test": 135
+    },
+    "leakage": {
+      "random": 0,
+      "scaffold": 0
+    }
+  },
+  {
+    "dataset": "sider",
+    "seed": 456,
+    "random": {
+      "train": 1080,
+      "val": 135,
+      "test": 135
+    },
+    "scaffold": {
+      "train": 1080,
+      "val": 135,
+      "test": 135
+    },
+    "leakage": {
+      "random": 0,
+      "scaffold": 0
+    }
+  },
+  {
+    "dataset": "sider",
+    "seed": 789,
+    "random": {
+      "train": 1080,
+      "val": 135,
+      "test": 135
+    },
+    "scaffold": {
+      "train": 1080,
+      "val": 135,
+      "test": 135
+    },
+    "leakage": {
+      "random": 0,
+      "scaffold": 0
+    }
+  },
+  {
+    "dataset": "sider",
+    "seed": 1337,
+    "random": {
+      "train": 1080,
+      "val": 135,
+      "test": 135
+    },
+    "scaffold": {
+      "train": 1077,
+      "val": 135,
+      "test": 138
+    },
+    "leakage": {
+      "random": 0,
+      "scaffold": 0
+    }
+  }
+]

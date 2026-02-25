@@ -1,0 +1,92 @@
+[
+  {
+    "dataset": "clintox",
+    "seed": 42,
+    "random": {
+      "train": 1103,
+      "val": 137,
+      "test": 139
+    },
+    "scaffold": {
+      "train": 1100,
+      "val": 138,
+      "test": 141
+    },
+    "leakage": {
+      "random": 0,
+      "scaffold": 0
+    }
+  },
+  {
+    "dataset": "clintox",
+    "seed": 123,
+    "random": {
+      "train": 1103,
+      "val": 137,
+      "test": 139
+    },
+    "scaffold": {
+      "train": 1103,
+      "val": 137,
+      "test": 139
+    },
+    "leakage": {
+      "random": 0,
+      "scaffold": 0
+    }
+  },
+  {
+    "dataset": "clintox",
+    "seed": 456,
+    "random": {
+      "train": 1103,
+      "val": 137,
+      "test": 139
+    },
+    "scaffold": {
+      "train": 989,
+      "val": 137,
+      "test": 253
+    },
+    "leakage": {
+      "random": 0,
+      "scaffold": 0
+    }
+  },
+  {
+    "dataset": "clintox",
+    "seed": 789,
+    "random": {
+      "train": 1103,
+      "val": 137,
+      "test": 139
+    },
+    "scaffold": {
+      "train": 1096,
+      "val": 144,
+      "test": 139
+    },
+    "leakage": {
+      "random": 0,
+      "scaffold": 0
+    }
+  },
+  {
+    "dataset": "clintox",
+    "seed": 1337,
+    "random": {
+      "train": 1103,
+      "val": 137,
+      "test": 139
+    },
+    "scaffold": {
+      "train": 1102,
+      "val": 138,
+      "test": 139
+    },
+    "leakage": {
+      "random": 0,
+      "scaffold": 0
+    }
+  }
+]

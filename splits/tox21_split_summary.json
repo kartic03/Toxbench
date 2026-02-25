@@ -1,0 +1,92 @@
+[
+  {
+    "dataset": "tox21",
+    "seed": 42,
+    "random": {
+      "train": 6030,
+      "val": 753,
+      "test": 755
+    },
+    "scaffold": {
+      "train": 6027,
+      "val": 756,
+      "test": 755
+    },
+    "leakage": {
+      "random": 0,
+      "scaffold": 0
+    }
+  },
+  {
+    "dataset": "tox21",
+    "seed": 123,
+    "random": {
+      "train": 6030,
+      "val": 753,
+      "test": 755
+    },
+    "scaffold": {
+      "train": 4552,
+      "val": 2228,
+      "test": 758
+    },
+    "leakage": {
+      "random": 0,
+      "scaffold": 0
+    }
+  },
+  {
+    "dataset": "tox21",
+    "seed": 456,
+    "random": {
+      "train": 6030,
+      "val": 753,
+      "test": 755
+    },
+    "scaffold": {
+      "train": 4726,
+      "val": 756,
+      "test": 2056
+    },
+    "leakage": {
+      "random": 0,
+      "scaffold": 0
+    }
+  },
+  {
+    "dataset": "tox21",
+    "seed": 789,
+    "random": {
+      "train": 6030,
+      "val": 753,
+      "test": 755
+    },
+    "scaffold": {
+      "train": 4372,
+      "val": 2411,
+      "test": 755
+    },
+    "leakage": {
+      "random": 0,
+      "scaffold": 0
+    }
+  },
+  {
+    "dataset": "tox21",
+    "seed": 1337,
+    "random": {
+      "train": 6030,
+      "val": 753,
+      "test": 755
+    },
+    "scaffold": {
+      "train": 6030,
+      "val": 753,
+      "test": 755
+    },
+    "leakage": {
+      "random": 0,
+      "scaffold": 0
+    }
+  }
+]
