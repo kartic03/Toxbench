@@ -1,0 +1,314 @@
+{
+  "tox21": {
+    "worst_scaffolds": [
+      {
+        "scaffold": "O=C1CCCc2ccccc21",
+        "n_compounds": 4,
+        "mean_auroc": 0.0,
+        "n_tasks_evaluated": 1
+      },
+      {
+        "scaffold": "O=[PH]1NCCCO1",
+        "n_compounds": 3,
+        "mean_auroc": 0.0,
+        "n_tasks_evaluated": 1
+      },
+      {
+        "scaffold": "O=c1[nH]c(=O)c2[nH]cnc2[nH]1",
+        "n_compounds": 14,
+        "mean_auroc": 0.0769,
+        "n_tasks_evaluated": 1
+      },
+      {
+        "scaffold": "O=C(OC1CCC2CC3c4[nH]c5ccccc5c4CCN3CC2C1)c1ccccc1",
+        "n_compounds": 3,
+        "mean_auroc": 0.125,
+        "n_tasks_evaluated": 4
+      },
+      {
+        "scaffold": "O=c1ccn(C2CCCO2)c(=O)[nH]1",
+        "n_compounds": 13,
+        "mean_auroc": 0.454,
+        "n_tasks_evaluated": 4
+      },
+      {
+        "scaffold": "O=C1C=CC(=O)C=C1",
+        "n_compounds": 7,
+        "mean_auroc": 0.4833,
+        "n_tasks_evaluated": 6
+      },
+      {
+        "scaffold": "C1CC2C3CCC(C3)C2C1",
+        "n_compounds": 3,
+        "mean_auroc": 0.5,
+        "n_tasks_evaluated": 3
+      },
+      {
+        "scaffold": "O=C1CCCCOC(=O)CC(OC2CCCCO2)CC(OC2CCCCO2)CCC1",
+        "n_compounds": 4,
+        "mean_auroc": 0.5,
+        "n_tasks_evaluated": 1
+      },
+      {
+        "scaffold": "c1ccc(Cn2ncc3ccccc32)cc1",
+        "n_compounds": 3,
+        "mean_auroc": 0.5,
+        "n_tasks_evaluated": 3
+      },
+      {
+        "scaffold": "O=c1c2ccccc2sc2ccccc12",
+        "n_compounds": 3,
+        "mean_auroc": 0.5714,
+        "n_tasks_evaluated": 7
+      }
+    ],
+    "best_scaffolds": [
+      {
+        "scaffold": "c1ccc2c(c1)CCCC2",
+        "n_compounds": 5,
+        "mean_auroc": 1.0,
+        "n_tasks_evaluated": 1
+      },
+      {
+        "scaffold": "O=C1C=CC2C(=C1)CCC1C3CCCC3CC(=O)C21",
+        "n_compounds": 3,
+        "mean_auroc": 1.0,
+        "n_tasks_evaluated": 4
+      },
+      {
+        "scaffold": "O=C1CCCCC1",
+        "n_compounds": 12,
+        "mean_auroc": 0.9545,
+        "n_tasks_evaluated": 1
+      },
+      {
+        "scaffold": "C1CCNC1",
+        "n_compounds": 10,
+        "mean_auroc": 0.8611,
+        "n_tasks_evaluated": 4
+      },
+      {
+        "scaffold": "c1c[nH]cn1",
+        "n_compounds": 18,
+        "mean_auroc": 0.7745,
+        "n_tasks_evaluated": 3
+      },
+      {
+        "scaffold": "c1ccc2c(c1)CCC1C2CCC2CCCC21",
+        "n_compounds": 16,
+        "mean_auroc": 0.7644,
+        "n_tasks_evaluated": 9
+      },
+      {
+        "scaffold": "c1ccc2c(c1)Sc1ccccc1N2CCCN1CCNCC1",
+        "n_compounds": 9,
+        "mean_auroc": 0.75,
+        "n_tasks_evaluated": 1
+      },
+      {
+        "scaffold": "O=C1CN(CCN2CC(=O)NC(=O)C2)CC(=O)N1",
+        "n_compounds": 3,
+        "mean_auroc": 0.75,
+        "n_tasks_evaluated": 1
+      },
+      {
+        "scaffold": "c1ccc(Cc2ccccc2)cc1",
+        "n_compounds": 81,
+        "mean_auroc": 0.7481,
+        "n_tasks_evaluated": 9
+      },
+      {
+        "scaffold": "c1ccc2ccccc2c1",
+        "n_compounds": 64,
+        "mean_auroc": 0.7173,
+        "n_tasks_evaluated": 10
+      }
+    ],
+    "summary": {
+      "total_scaffolds": 27,
+      "mean_auroc": 0.5941,
+      "failing_count": 11,
+      "good_count": 4
+    }
+  },
+  "clintox": {
+    "worst_scaffolds": [
+      {
+        "scaffold": "c1ccc2ccccc2c1",
+        "n_compounds": 6,
+        "mean_auroc": 0.0,
+        "n_tasks_evaluated": 2
+      },
+      {
+        "scaffold": "O=c1nc[nH]c2[nH]cnc12",
+        "n_compounds": 4,
+        "mean_auroc": 0.3333,
+        "n_tasks_evaluated": 2
+      },
+      {
+        "scaffold": "O=C(CNC(=O)CNC(=O)C(Cc1ccccc1)NC(=O)CNC(=O)C(Cc1c[nH]c2ccccc12)NC(=O)C(Cc1cnc[nH]1)NC(=O)C1CCC(=O)N1)NCC(=O)N1CCCC1",
+        "n_compounds": 3,
+        "mean_auroc": 0.375,
+        "n_tasks_evaluated": 2
+      }
+    ],
+    "best_scaffolds": [
+      {
+        "scaffold": "O=C(CNC(=O)CNC(=O)C(Cc1ccccc1)NC(=O)CNC(=O)C(Cc1c[nH]c2ccccc12)NC(=O)C(Cc1cnc[nH]1)NC(=O)C1CCC(=O)N1)NCC(=O)N1CCCC1",
+        "n_compounds": 3,
+        "mean_auroc": 0.375,
+        "n_tasks_evaluated": 2
+      },
+      {
+        "scaffold": "O=c1nc[nH]c2[nH]cnc12",
+        "n_compounds": 4,
+        "mean_auroc": 0.3333,
+        "n_tasks_evaluated": 2
+      },
+      {
+        "scaffold": "c1ccc2ccccc2c1",
+        "n_compounds": 6,
+        "mean_auroc": 0.0,
+        "n_tasks_evaluated": 2
+      }
+    ],
+    "summary": {
+      "total_scaffolds": 3,
+      "mean_auroc": 0.2361,
+      "failing_count": 3,
+      "good_count": 0
+    }
+  },
+  "sider": {
+    "worst_scaffolds": [
+      {
+        "scaffold": "O=S(Cc1ccccn1)c1nc2ccccc2[nH]1",
+        "n_compounds": 5,
+        "mean_auroc": 0.25,
+        "n_tasks_evaluated": 4
+      },
+      {
+        "scaffold": "O=C1C=C2C=CC3C4CCCC4CCC3C2C2CC12",
+        "n_compounds": 3,
+        "mean_auroc": 0.3077,
+        "n_tasks_evaluated": 13
+      },
+      {
+        "scaffold": "c1ccncc1",
+        "n_compounds": 9,
+        "mean_auroc": 0.5484,
+        "n_tasks_evaluated": 22
+      },
+      {
+        "scaffold": "C1=CC(c2ccccc2)C=CN1",
+        "n_compounds": 6,
+        "mean_auroc": 0.5521,
+        "n_tasks_evaluated": 16
+      },
+      {
+        "scaffold": "C=C1C(=O)CC2CC3Cc4ccccc4C=C3C(=O)C2C1=O",
+        "n_compounds": 5,
+        "mean_auroc": 0.5833,
+        "n_tasks_evaluated": 12
+      },
+      {
+        "scaffold": "c1ccc(C2=NCc3nncn3-c3ccccc32)cc1",
+        "n_compounds": 3,
+        "mean_auroc": 0.5833,
+        "n_tasks_evaluated": 6
+      },
+      {
+        "scaffold": "O=c1ccn(C2CCCO2)c(=O)[nH]1",
+        "n_compounds": 6,
+        "mean_auroc": 0.5917,
+        "n_tasks_evaluated": 21
+      },
+      {
+        "scaffold": "O=C1CCC2C3Cc4cccc5c4C2(CCN3)C1O5",
+        "n_compounds": 5,
+        "mean_auroc": 0.5962,
+        "n_tasks_evaluated": 13
+      },
+      {
+        "scaffold": "c1ccc2[nH]ccc2c1",
+        "n_compounds": 3,
+        "mean_auroc": 0.6364,
+        "n_tasks_evaluated": 11
+      },
+      {
+        "scaffold": "O=C(Cc1ccccc1)NC1C(=O)N2C=CCSC12",
+        "n_compounds": 4,
+        "mean_auroc": 0.6944,
+        "n_tasks_evaluated": 6
+      }
+    ],
+    "best_scaffolds": [
+      {
+        "scaffold": "O=C1C=CC2C(=O)C3=Cc4ccccc4CC3CC2C1",
+        "n_compounds": 3,
+        "mean_auroc": 0.7083,
+        "n_tasks_evaluated": 12
+      },
+      {
+        "scaffold": "O=C(Cc1ccccc1)NC1C(=O)N2C=CCSC12",
+        "n_compounds": 4,
+        "mean_auroc": 0.6944,
+        "n_tasks_evaluated": 6
+      },
+      {
+        "scaffold": "c1ccc2[nH]ccc2c1",
+        "n_compounds": 3,
+        "mean_auroc": 0.6364,
+        "n_tasks_evaluated": 11
+      },
+      {
+        "scaffold": "O=C1CCC2C3Cc4cccc5c4C2(CCN3)C1O5",
+        "n_compounds": 5,
+        "mean_auroc": 0.5962,
+        "n_tasks_evaluated": 13
+      },
+      {
+        "scaffold": "O=c1ccn(C2CCCO2)c(=O)[nH]1",
+        "n_compounds": 6,
+        "mean_auroc": 0.5917,
+        "n_tasks_evaluated": 21
+      },
+      {
+        "scaffold": "C=C1C(=O)CC2CC3Cc4ccccc4C=C3C(=O)C2C1=O",
+        "n_compounds": 5,
+        "mean_auroc": 0.5833,
+        "n_tasks_evaluated": 12
+      },
+      {
+        "scaffold": "c1ccc(C2=NCc3nncn3-c3ccccc32)cc1",
+        "n_compounds": 3,
+        "mean_auroc": 0.5833,
+        "n_tasks_evaluated": 6
+      },
+      {
+        "scaffold": "C1=CC(c2ccccc2)C=CN1",
+        "n_compounds": 6,
+        "mean_auroc": 0.5521,
+        "n_tasks_evaluated": 16
+      },
+      {
+        "scaffold": "c1ccncc1",
+        "n_compounds": 9,
+        "mean_auroc": 0.5484,
+        "n_tasks_evaluated": 22
+      },
+      {
+        "scaffold": "O=C1C=C2C=CC3C4CCCC4CCC3C2C2CC12",
+        "n_compounds": 3,
+        "mean_auroc": 0.3077,
+        "n_tasks_evaluated": 13
+      }
+    ],
+    "summary": {
+      "total_scaffolds": 11,
+      "mean_auroc": 0.5502,
+      "failing_count": 8,
+      "good_count": 0
+    }
+  }
+}
