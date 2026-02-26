@@ -2,6 +2,9 @@
 
 A leakage-safe classification benchmark for predictive toxicology with calibration, uncertainty, and domain-shift analysis.
 
+## Graphical Abstract
+**Click the link to see the graphical abstract:** https://kartic03.github.io/Toxbench/
+
 ## Datasets
 - **Tox21** — 12 tasks, 7,538 compounds after cleaning
 - **ClinTox** — 2 tasks, 1,379 compounds after cleaning  
