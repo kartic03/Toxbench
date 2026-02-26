@@ -215,7 +215,7 @@ if __name__ == "__main__":
     os.makedirs("results", exist_ok=True)
     all_unc_results = {}
 
-    for dataset in ["tox21", "clintox"]:
+    for dataset in ["tox21", "clintox", "sider"]:
         all_unc_results[dataset] = {}
         for split_type in ["random", "scaffold"]:
             res = run_uncertainty_analysis(

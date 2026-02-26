@@ -725,7 +725,7 @@
             "auroc": 0.4853
           }
         ],
-        "mean_uncertainty": 0.010811832304259772
+        "mean_uncertainty": 0.01081183230425977
       },
       {
         "seed": 789,
@@ -1104,7 +1104,573 @@
             "auroc": 0.5443
           }
         ],
-        "mean_uncertainty": 0.011595672506783321
+        "mean_uncertainty": 0.01159567250678332
+      }
+    ]
+  },
+  "sider": {
+    "random": [
+      {
+        "seed": 42,
+        "bin_results": [
+          {
+            "bin": "Q1 (low)",
+            "n": 34,
+            "auroc": 0.7968,
+            "unc_lo": 0.0113,
+            "unc_hi": 0.0193
+          },
+          {
+            "bin": "Q2",
+            "n": 34,
+            "auroc": 0.661,
+            "unc_lo": 0.0193,
+            "unc_hi": 0.0213
+          },
+          {
+            "bin": "Q3",
+            "n": 34,
+            "auroc": 0.6238,
+            "unc_lo": 0.0213,
+            "unc_hi": 0.0234
+          },
+          {
+            "bin": "Q4 (high)",
+            "n": 34,
+            "auroc": 0.6863,
+            "unc_lo": 0.0234,
+            "unc_hi": 0.0325
+          }
+        ],
+        "coverage_results": [
+          {
+            "coverage_pct": 100,
+            "n_kept": 135,
+            "auroc": 0.7016
+          },
+          {
+            "coverage_pct": 75,
+            "n_kept": 101,
+            "auroc": 0.7129
+          },
+          {
+            "coverage_pct": 50,
+            "n_kept": 68,
+            "auroc": 0.7448
+          },
+          {
+            "coverage_pct": 25,
+            "n_kept": 34,
+            "auroc": 0.7968
+          }
+        ],
+        "mean_uncertainty": 0.021538542358821137
+      },
+      {
+        "seed": 123,
+        "bin_results": [
+          {
+            "bin": "Q1 (low)",
+            "n": 34,
+            "auroc": 0.7606,
+            "unc_lo": 0.0153,
+            "unc_hi": 0.0193
+          },
+          {
+            "bin": "Q2",
+            "n": 34,
+            "auroc": 0.603,
+            "unc_lo": 0.0193,
+            "unc_hi": 0.0209
+          },
+          {
+            "bin": "Q3",
+            "n": 34,
+            "auroc": 0.719,
+            "unc_lo": 0.0209,
+            "unc_hi": 0.0233
+          },
+          {
+            "bin": "Q4 (high)",
+            "n": 34,
+            "auroc": 0.5717,
+            "unc_lo": 0.0233,
+            "unc_hi": 0.0306
+          }
+        ],
+        "coverage_results": [
+          {
+            "coverage_pct": 100,
+            "n_kept": 135,
+            "auroc": 0.6692
+          },
+          {
+            "coverage_pct": 75,
+            "n_kept": 101,
+            "auroc": 0.6927
+          },
+          {
+            "coverage_pct": 50,
+            "n_kept": 68,
+            "auroc": 0.6891
+          },
+          {
+            "coverage_pct": 25,
+            "n_kept": 34,
+            "auroc": 0.7606
+          }
+        ],
+        "mean_uncertainty": 0.0214219042833051
+      },
+      {
+        "seed": 456,
+        "bin_results": [
+          {
+            "bin": "Q1 (low)",
+            "n": 34,
+            "auroc": 0.5934,
+            "unc_lo": 0.0126,
+            "unc_hi": 0.0187
+          },
+          {
+            "bin": "Q2",
+            "n": 34,
+            "auroc": 0.6852,
+            "unc_lo": 0.0187,
+            "unc_hi": 0.0205
+          },
+          {
+            "bin": "Q3",
+            "n": 34,
+            "auroc": 0.5739,
+            "unc_lo": 0.0205,
+            "unc_hi": 0.0229
+          },
+          {
+            "bin": "Q4 (high)",
+            "n": 34,
+            "auroc": 0.6253,
+            "unc_lo": 0.0229,
+            "unc_hi": 0.0339
+          }
+        ],
+        "coverage_results": [
+          {
+            "coverage_pct": 100,
+            "n_kept": 135,
+            "auroc": 0.6123
+          },
+          {
+            "coverage_pct": 75,
+            "n_kept": 101,
+            "auroc": 0.603
+          },
+          {
+            "coverage_pct": 50,
+            "n_kept": 68,
+            "auroc": 0.6266
+          },
+          {
+            "coverage_pct": 25,
+            "n_kept": 34,
+            "auroc": 0.5934
+          }
+        ],
+        "mean_uncertainty": 0.021229137723136646
+      },
+      {
+        "seed": 789,
+        "bin_results": [
+          {
+            "bin": "Q1 (low)",
+            "n": 34,
+            "auroc": 0.7818,
+            "unc_lo": 0.0119,
+            "unc_hi": 0.0196
+          },
+          {
+            "bin": "Q2",
+            "n": 34,
+            "auroc": 0.6988,
+            "unc_lo": 0.0196,
+            "unc_hi": 0.0215
+          },
+          {
+            "bin": "Q3",
+            "n": 34,
+            "auroc": 0.5882,
+            "unc_lo": 0.0215,
+            "unc_hi": 0.0235
+          },
+          {
+            "bin": "Q4 (high)",
+            "n": 34,
+            "auroc": 0.618,
+            "unc_lo": 0.0235,
+            "unc_hi": 0.0333
+          }
+        ],
+        "coverage_results": [
+          {
+            "coverage_pct": 100,
+            "n_kept": 135,
+            "auroc": 0.6779
+          },
+          {
+            "coverage_pct": 75,
+            "n_kept": 101,
+            "auroc": 0.6944
+          },
+          {
+            "coverage_pct": 50,
+            "n_kept": 68,
+            "auroc": 0.7437
+          },
+          {
+            "coverage_pct": 25,
+            "n_kept": 34,
+            "auroc": 0.7818
+          }
+        ],
+        "mean_uncertainty": 0.021782927596898434
+      },
+      {
+        "seed": 1337,
+        "bin_results": [
+          {
+            "bin": "Q1 (low)",
+            "n": 34,
+            "auroc": 0.6754,
+            "unc_lo": 0.0124,
+            "unc_hi": 0.0199
+          },
+          {
+            "bin": "Q2",
+            "n": 34,
+            "auroc": 0.6938,
+            "unc_lo": 0.0199,
+            "unc_hi": 0.0218
+          },
+          {
+            "bin": "Q3",
+            "n": 34,
+            "auroc": 0.6248,
+            "unc_lo": 0.0218,
+            "unc_hi": 0.0237
+          },
+          {
+            "bin": "Q4 (high)",
+            "n": 34,
+            "auroc": 0.6699,
+            "unc_lo": 0.0237,
+            "unc_hi": 0.0304
+          }
+        ],
+        "coverage_results": [
+          {
+            "coverage_pct": 100,
+            "n_kept": 135,
+            "auroc": 0.6562
+          },
+          {
+            "coverage_pct": 75,
+            "n_kept": 101,
+            "auroc": 0.6551
+          },
+          {
+            "coverage_pct": 50,
+            "n_kept": 68,
+            "auroc": 0.6734
+          },
+          {
+            "coverage_pct": 25,
+            "n_kept": 34,
+            "auroc": 0.6754
+          }
+        ],
+        "mean_uncertainty": 0.021871561029160366
+      }
+    ],
+    "scaffold": [
+      {
+        "seed": 42,
+        "bin_results": [
+          {
+            "bin": "Q1 (low)",
+            "n": 35,
+            "auroc": 0.6742,
+            "unc_lo": 0.0142,
+            "unc_hi": 0.02
+          },
+          {
+            "bin": "Q2",
+            "n": 35,
+            "auroc": 0.5908,
+            "unc_lo": 0.02,
+            "unc_hi": 0.0219
+          },
+          {
+            "bin": "Q3",
+            "n": 35,
+            "auroc": 0.5283,
+            "unc_lo": 0.0219,
+            "unc_hi": 0.0239
+          },
+          {
+            "bin": "Q4 (high)",
+            "n": 35,
+            "auroc": 0.6904,
+            "unc_lo": 0.0239,
+            "unc_hi": 0.033
+          }
+        ],
+        "coverage_results": [
+          {
+            "coverage_pct": 100,
+            "n_kept": 139,
+            "auroc": 0.6219
+          },
+          {
+            "coverage_pct": 75,
+            "n_kept": 104,
+            "auroc": 0.6051
+          },
+          {
+            "coverage_pct": 50,
+            "n_kept": 70,
+            "auroc": 0.6355
+          },
+          {
+            "coverage_pct": 25,
+            "n_kept": 35,
+            "auroc": 0.6742
+          }
+        ],
+        "mean_uncertainty": 0.02198234670962129
+      },
+      {
+        "seed": 123,
+        "bin_results": [
+          {
+            "bin": "Q1 (low)",
+            "n": 34,
+            "auroc": 0.6345,
+            "unc_lo": 0.0162,
+            "unc_hi": 0.0205
+          },
+          {
+            "bin": "Q2",
+            "n": 34,
+            "auroc": 0.6661,
+            "unc_lo": 0.0205,
+            "unc_hi": 0.0222
+          },
+          {
+            "bin": "Q3",
+            "n": 34,
+            "auroc": 0.6448,
+            "unc_lo": 0.0222,
+            "unc_hi": 0.024
+          },
+          {
+            "bin": "Q4 (high)",
+            "n": 34,
+            "auroc": 0.6512,
+            "unc_lo": 0.024,
+            "unc_hi": 0.0328
+          }
+        ],
+        "coverage_results": [
+          {
+            "coverage_pct": 100,
+            "n_kept": 135,
+            "auroc": 0.6528
+          },
+          {
+            "coverage_pct": 75,
+            "n_kept": 101,
+            "auroc": 0.6507
+          },
+          {
+            "coverage_pct": 50,
+            "n_kept": 68,
+            "auroc": 0.6579
+          },
+          {
+            "coverage_pct": 25,
+            "n_kept": 34,
+            "auroc": 0.6345
+          }
+        ],
+        "mean_uncertainty": 0.02211718481924089
+      },
+      {
+        "seed": 456,
+        "bin_results": [
+          {
+            "bin": "Q1 (low)",
+            "n": 34,
+            "auroc": 0.6592,
+            "unc_lo": 0.0141,
+            "unc_hi": 0.0201
+          },
+          {
+            "bin": "Q2",
+            "n": 34,
+            "auroc": 0.6894,
+            "unc_lo": 0.0201,
+            "unc_hi": 0.0216
+          },
+          {
+            "bin": "Q3",
+            "n": 34,
+            "auroc": 0.636,
+            "unc_lo": 0.0216,
+            "unc_hi": 0.0234
+          },
+          {
+            "bin": "Q4 (high)",
+            "n": 34,
+            "auroc": 0.6699,
+            "unc_lo": 0.0234,
+            "unc_hi": 0.0347
+          }
+        ],
+        "coverage_results": [
+          {
+            "coverage_pct": 100,
+            "n_kept": 135,
+            "auroc": 0.6628
+          },
+          {
+            "coverage_pct": 75,
+            "n_kept": 101,
+            "auroc": 0.6564
+          },
+          {
+            "coverage_pct": 50,
+            "n_kept": 68,
+            "auroc": 0.6717
+          },
+          {
+            "coverage_pct": 25,
+            "n_kept": 34,
+            "auroc": 0.6592
+          }
+        ],
+        "mean_uncertainty": 0.022016837781886137
+      },
+      {
+        "seed": 789,
+        "bin_results": [
+          {
+            "bin": "Q1 (low)",
+            "n": 34,
+            "auroc": 0.6812,
+            "unc_lo": 0.0125,
+            "unc_hi": 0.0196
+          },
+          {
+            "bin": "Q2",
+            "n": 34,
+            "auroc": 0.6673,
+            "unc_lo": 0.0196,
+            "unc_hi": 0.0217
+          },
+          {
+            "bin": "Q3",
+            "n": 34,
+            "auroc": 0.6301,
+            "unc_lo": 0.0217,
+            "unc_hi": 0.0236
+          },
+          {
+            "bin": "Q4 (high)",
+            "n": 34,
+            "auroc": 0.599,
+            "unc_lo": 0.0236,
+            "unc_hi": 0.034
+          }
+        ],
+        "coverage_results": [
+          {
+            "coverage_pct": 100,
+            "n_kept": 135,
+            "auroc": 0.6305
+          },
+          {
+            "coverage_pct": 75,
+            "n_kept": 101,
+            "auroc": 0.6532
+          },
+          {
+            "coverage_pct": 50,
+            "n_kept": 68,
+            "auroc": 0.6735
+          },
+          {
+            "coverage_pct": 25,
+            "n_kept": 34,
+            "auroc": 0.6812
+          }
+        ],
+        "mean_uncertainty": 0.02186729225447102
+      },
+      {
+        "seed": 1337,
+        "bin_results": [
+          {
+            "bin": "Q1 (low)",
+            "n": 35,
+            "auroc": 0.6682,
+            "unc_lo": 0.016,
+            "unc_hi": 0.0203
+          },
+          {
+            "bin": "Q2",
+            "n": 34,
+            "auroc": 0.6364,
+            "unc_lo": 0.0203,
+            "unc_hi": 0.0216
+          },
+          {
+            "bin": "Q3",
+            "n": 34,
+            "auroc": 0.6328,
+            "unc_lo": 0.0216,
+            "unc_hi": 0.0235
+          },
+          {
+            "bin": "Q4 (high)",
+            "n": 35,
+            "auroc": 0.5896,
+            "unc_lo": 0.0235,
+            "unc_hi": 0.037
+          }
+        ],
+        "coverage_results": [
+          {
+            "coverage_pct": 100,
+            "n_kept": 138,
+            "auroc": 0.6261
+          },
+          {
+            "coverage_pct": 75,
+            "n_kept": 103,
+            "auroc": 0.6424
+          },
+          {
+            "coverage_pct": 50,
+            "n_kept": 69,
+            "auroc": 0.6465
+          },
+          {
+            "coverage_pct": 25,
+            "n_kept": 35,
+            "auroc": 0.6682
+          }
+        ],
+        "mean_uncertainty": 0.022191545769378217
       }
     ]
   }
