@@ -1,0 +1,33 @@
+{
+  "architecture": "GIN",
+  "ClinTox_scaffold_macro_AUROC": {
+    "baseline": [
+      0.6957,
+      0.0388
+    ],
+    "MTL": [
+      0.7896,
+      0.0907
+    ]
+  },
+  "CT_TOX_scaffold_AUROC": {
+    "baseline": [
+      0.6504,
+      0.0373
+    ],
+    "MTL": [
+      0.7744,
+      0.0973
+    ]
+  },
+  "FDA_APPROVED_scaffold_AUROC": {
+    "baseline": [
+      0.741,
+      0.0809
+    ],
+    "MTL": [
+      0.8049,
+      0.0984
+    ]
+  }
+}

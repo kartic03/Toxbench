@@ -1,0 +1,44 @@
+﻿device=cuda
+combined compounds=8668 tasks=41
+featurizing graphs ...
+atom feature dim: 138
+seed 42: A_CT_TOX=0.6302 -> B_CT_TOX=0.7406 | A_macro=0.6506 B_macro=0.7811 (train_B n=8389)
+seed 123: A_CT_TOX=0.7134 -> B_CT_TOX=0.9134 | A_macro=0.7403 B_macro=0.8806 (train_B n=8392)
+seed 456: A_CT_TOX=0.6427 -> B_CT_TOX=0.7657 | A_macro=0.6925 B_macro=0.7435 (train_B n=8278)
+seed 789: A_CT_TOX=0.6019 -> B_CT_TOX=0.8315 | A_macro=0.7393 B_macro=0.894 (train_B n=8385)
+seed 1337: A_CT_TOX=0.6636 -> B_CT_TOX=0.6209 | A_macro=0.6557 B_macro=0.649 (train_B n=8391)
+
+=== GNN MTL PILOT SUMMARY (mean, SD over 5 seeds) ===
+{
+  "architecture": "GIN",
+  "ClinTox_scaffold_macro_AUROC": {
+    "baseline": [
+      0.6957,
+      0.0388
+    ],
+    "MTL": [
+      0.7896,
+      0.0907
+    ]
+  },
+  "CT_TOX_scaffold_AUROC": {
+    "baseline": [
+      0.6504,
+      0.0373
+    ],
+    "MTL": [
+      0.7744,
+      0.0973
+    ]
+  },
+  "FDA_APPROVED_scaffold_AUROC": {
+    "baseline": [
+      0.741,
+      0.0809
+    ],
+    "MTL": [
+      0.8049,
+      0.0984
+    ]
+  }
+}

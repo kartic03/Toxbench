@@ -1,0 +1,4 @@
+dataset,min,median,max,mean
+clintox,4.21,50.62,97.03,50.62
+sider,1.56,66.44,92.81,57.27
+tox21,2.35,4.6,11.9,6.22

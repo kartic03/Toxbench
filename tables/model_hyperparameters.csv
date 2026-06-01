@@ -1,0 +1,64 @@
+Model,Category,Value
+Random Forest,Config 1,"n_estimators=100, max_depth=None (unlimited), class_weight=balanced"
+Random Forest,Config 2,"n_estimators=500, max_depth=None (unlimited), class_weight=balanced"
+Random Forest,Config 3,"n_estimators=100, max_depth=20, class_weight=balanced"
+Random Forest,Config 4,"n_estimators=500, max_depth=20, class_weight=balanced"
+Random Forest,max_features,sqrt (sklearn default)
+Random Forest,bootstrap,True (sklearn default)
+Random Forest,min_samples_split,2 (sklearn default)
+Random Forest,min_samples_leaf,1 (sklearn default)
+Random Forest,n_jobs,-1 (all cores)
+Random Forest,NaN handling,nan_to_num fill with 0.0
+Random Forest,Multi-task strategy,"Single RF, multi-output"
+Random Forest,Source file,src/models/random_forest.py
+Random Forest,Input features,ECFP4 fingerprints (2048 bits)
+Random Forest,Config selection,Grid search over 4 configs; best val AUROC per seed
+XGBoost,Config 1,"n_estimators=200, learning_rate=0.05, max_depth=3"
+XGBoost,Config 2,"n_estimators=200, learning_rate=0.1, max_depth=6"
+XGBoost,Config 3,"n_estimators=500, learning_rate=0.05, max_depth=3"
+XGBoost,Config 4,"n_estimators=500, learning_rate=0.1, max_depth=6"
+XGBoost,objective,binary:logistic
+XGBoost,eval_metric,logloss
+XGBoost,scale_pos_weight,neg/pos ratio per task
+XGBoost,subsample,1.0 (default)
+XGBoost,colsample_bytree,1.0 (default)
+XGBoost,n_jobs,-1 (all cores)
+XGBoost,Multi-task strategy,One model per task
+XGBoost,Source file,src/models/xgboost_model.py
+XGBoost,Input features,ECFP4 fingerprints (2048 bits)
+XGBoost,Config selection,Grid search over 4 configs; best mean val AUROC across tasks
+MLP,Config 1,"hidden_dims=[512, 256], dropout=0.2, learning_rate=0.001"
+MLP,Config 2,"hidden_dims=[512, 256], dropout=0.4, learning_rate=0.001"
+MLP,Config 3,"hidden_dims=[1024, 512, 256], dropout=0.2, learning_rate=0.001"
+MLP,Config 4,"hidden_dims=[1024, 512, 256], dropout=0.4, learning_rate=0.0003"
+MLP,activation,ReLU
+MLP,output_activation,Sigmoid
+MLP,optimizer,Adam
+MLP,loss,BCELoss (masked NaN)
+MLP,batch_size,64
+MLP,max_epochs,50
+MLP,early_stopping,patience=10 (val AUROC)
+MLP,device,"CUDA if available, else CPU"
+MLP,Multi-task strategy,"Single model, all tasks jointly"
+MLP,Source file,src/models/mlp_model.py
+MLP,Input features,ECFP4 fingerprints (2048 bits)
+MLP,Config selection,Grid search over 4 configs; best val AUROC with early stopping
+GIN (GNN),Config 1,"hidden_dim=128, dropout=0.1, learning_rate=0.001, num_layers=3"
+GIN (GNN),Config 2,"hidden_dim=256, dropout=0.1, learning_rate=0.001, num_layers=3"
+GIN (GNN),Config 3,"hidden_dim=128, dropout=0.3, learning_rate=0.0003, num_layers=3"
+GIN (GNN),Config 4,"hidden_dim=256, dropout=0.3, learning_rate=0.0003, num_layers=3"
+GIN (GNN),GNN architecture,Graph Isomorphism Network (GIN)
+GIN (GNN),Pooling,Global add pooling
+GIN (GNN),Batch normalisation,Per-layer BatchNorm1d
+GIN (GNN),MLP head,hidden_dim → hidden_dim/2 → n_tasks
+GIN (GNN),output_activation,Sigmoid
+GIN (GNN),optimizer,Adam
+GIN (GNN),loss,BCELoss (masked NaN)
+GIN (GNN),batch_size,64
+GIN (GNN),max_epochs,100
+GIN (GNN),early_stopping,patience=15 (val AUROC)
+GIN (GNN),device,"CUDA if available, else CPU"
+GIN (GNN),Multi-task strategy,"Single model, all tasks jointly"
+GIN (GNN),Source file,src/models/gnn_model.py
+GIN (GNN),Input features,"Molecular graph (atom features: atomic num, degree, formal charge, hybridization, aromaticity, ring membership)"
+GIN (GNN),Config selection,Grid search over 4 configs; best val AUROC with early stopping

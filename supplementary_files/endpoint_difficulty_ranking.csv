@@ -1,0 +1,42 @@
+dataset,task,all_random_mean,all_scaffold_mean,drop
+clintox,CT_TOX,0.5054,0.5883,0.083
+clintox,FDA_APPROVED,0.4673,0.6452,0.1779
+sider,Product issues,0.5671,0.5127,-0.0543
+sider,"Congenital, familial and genetic disorders",0.586,0.5623,-0.0237
+sider,Surgical and medical procedures,0.5762,0.5675,-0.0087
+sider,Metabolism and nutrition disorders,0.6379,0.5689,-0.069
+sider,Infections and infestations,0.6459,0.5789,-0.067
+sider,Immune system disorders,0.6162,0.5829,-0.0333
+sider,Skin and subcutaneous tissue disorders,0.6009,0.5874,-0.0135
+sider,General disorders and administration site conditions,0.6349,0.5877,-0.0473
+sider,Musculoskeletal and connective tissue disorders,0.6401,0.5897,-0.0504
+sider,Vascular disorders,0.6395,0.592,-0.0475
+sider,"Respiratory, thoracic and mediastinal disorders",0.6379,0.5939,-0.044
+sider,"Injury, poisoning and procedural complications",0.5897,0.5968,0.0071
+sider,Psychiatric disorders,0.6133,0.6148,0.0015
+sider,Ear and labyrinth disorders,0.6206,0.618,-0.0026
+sider,"Pregnancy, puerperium and perinatal conditions",0.6155,0.6197,0.0042
+sider,Social circumstances,0.5972,0.6218,0.0246
+sider,Investigations,0.7054,0.6254,-0.08
+sider,Eye disorders,0.6257,0.6317,0.006
+sider,Renal and urinary disorders,0.6609,0.6327,-0.0283
+sider,Cardiac disorders,0.661,0.6558,-0.0051
+sider,Reproductive system and breast disorders,0.7103,0.658,-0.0523
+sider,Endocrine disorders,0.6908,0.6704,-0.0204
+sider,Gastrointestinal disorders,0.7036,0.6751,-0.0285
+sider,Hepatobiliary disorders,0.6972,0.6817,-0.0155
+sider,Nervous system disorders,0.6872,0.6979,0.0106
+sider,"Neoplasms benign, malignant and unspecified (incl cysts and polyps)",0.6585,0.6991,0.0407
+sider,Blood and lymphatic system disorders,0.69,0.7,0.01
+tox21,NR-ER,0.7181,0.6575,-0.0606
+tox21,NR-Aromatase,0.7709,0.6653,-0.1056
+tox21,SR-ARE,0.7461,0.6971,-0.049
+tox21,SR-HSE,0.7291,0.6976,-0.0315
+tox21,SR-p53,0.8061,0.7074,-0.0987
+tox21,SR-ATAD5,0.8485,0.7198,-0.1287
+tox21,NR-PPAR-gamma,0.8174,0.7215,-0.0959
+tox21,NR-ER-LBD,0.798,0.7391,-0.0589
+tox21,SR-MMP,0.8419,0.7581,-0.0838
+tox21,NR-AR,0.7869,0.7894,0.0025
+tox21,NR-AhR,0.8453,0.7919,-0.0534
+tox21,NR-AR-LBD,0.8933,0.8235,-0.0699

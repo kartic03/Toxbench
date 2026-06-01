@@ -1,6 +1,16 @@
-data/raw/
+# Precomputed ECFP4 fingerprints are large (tox21 ~120 MB, exceeds GitHub's
+# limit) and are regenerable from the cleaned CSVs via
+# src/pipeline/compute_fingerprints.py, so they are NOT tracked here.
 data/processed/*.npy
-data/processed/*.csv
+
+# Released for reproducibility (R1.2): cleaned datasets, SMILES order, raw CSVs.
+# (data/raw/ and data/processed/*.csv are intentionally NOT ignored anymore.)
+
 __pycache__/
 *.pyc
 .ipynb_checkpoints/
+
+# Windows / archive cruft
+*Zone.Identifier
+splits.rar
+0

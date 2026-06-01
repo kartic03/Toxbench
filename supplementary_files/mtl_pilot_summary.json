@@ -1,0 +1,32 @@
+{
+  "ClinTox_scaffold_macro_AUROC": {
+    "baseline_ClinTox_only": [
+      0.5258,
+      0.1204
+    ],
+    "MTL_3dataset": [
+      0.6936,
+      0.1748
+    ]
+  },
+  "CT_TOX_scaffold_AUROC": {
+    "baseline_ClinTox_only": [
+      0.4953,
+      0.0982
+    ],
+    "MTL_3dataset": [
+      0.7342,
+      0.087
+    ]
+  },
+  "FDA_APPROVED_scaffold_AUROC": {
+    "baseline_ClinTox_only": [
+      0.5563,
+      0.1878
+    ],
+    "MTL_3dataset": [
+      0.6529,
+      0.2635
+    ]
+  }
+}

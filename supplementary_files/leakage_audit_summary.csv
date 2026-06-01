@@ -1,0 +1,7 @@
+dataset,split,nn_mean,nn_median,pct_gt_0p4,pct_gt_0p6,pct_gt_0p8
+tox21,random,0.5827,0.5758,82.4,43.9,11.7
+tox21,scaffold,0.417,0.3951,48.3,12.1,1.5
+clintox,random,0.4916,0.4762,58.1,32.9,7.6
+clintox,scaffold,0.4013,0.3704,44.3,14.3,1.6
+sider,random,0.4687,0.4286,54.5,31.0,7.6
+sider,scaffold,0.427,0.4,49.7,17.7,2.5

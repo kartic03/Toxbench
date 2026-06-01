@@ -1,0 +1,43 @@
+device=cpu
+combined compounds=8668  tasks=41
+seed 42: A_macro=0.3655 CT_TOX_A=0.3125 | B_macro=0.7673 CT_TOX_B=0.7693 (train_B n=8389)
+seed 123: A_macro=0.5511 CT_TOX_A=0.5985 | B_macro=0.8299 CT_TOX_B=0.8194 (train_B n=8392)
+seed 456: A_macro=0.4835 CT_TOX_A=0.4851 | B_macro=0.7798 CT_TOX_B=0.7673 (train_B n=8278)
+seed 789: A_macro=0.7341 CT_TOX_A=0.5407 | B_macro=0.3486 CT_TOX_B=0.5667 (train_B n=8385)
+seed 1337: A_macro=0.4949 CT_TOX_A=0.5399 | B_macro=0.7423 CT_TOX_B=0.7484 (train_B n=8391)
+
+=== MTL PILOT SUMMARY (mean, SD over 5 seeds) ===
+{
+  "ClinTox_scaffold_macro_AUROC": {
+    "baseline_ClinTox_only": [
+      0.5258,
+      0.1204
+    ],
+    "MTL_3dataset": [
+      0.6936,
+      0.1748
+    ]
+  },
+  "CT_TOX_scaffold_AUROC": {
+    "baseline_ClinTox_only": [
+      0.4953,
+      0.0982
+    ],
+    "MTL_3dataset": [
+      0.7342,
+      0.087
+    ]
+  },
+  "FDA_APPROVED_scaffold_AUROC": {
+    "baseline_ClinTox_only": [
+      0.5563,
+      0.1878
+    ],
+    "MTL_3dataset": [
+      0.6529,
+      0.2635
+    ]
+  }
+}
+
+Saved -> revision_outputs/mtl_pilot_summary.json

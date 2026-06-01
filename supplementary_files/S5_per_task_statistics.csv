@@ -1,0 +1,42 @@
+dataset,task,n_positive,n_negative,n_missing,n_labeled,pct_positive
+tox21,NR-AR,299,7239,0,7538,3.97
+tox21,NR-AR-LBD,231,7307,0,7538,3.06
+tox21,NR-AhR,745,6793,0,7538,9.88
+tox21,NR-Aromatase,274,7264,0,7538,3.63
+tox21,NR-ER,760,6778,0,7538,10.08
+tox21,NR-ER-LBD,337,7201,0,7538,4.47
+tox21,NR-PPAR-gamma,177,7361,0,7538,2.35
+tox21,SR-ARE,897,6641,0,7538,11.9
+tox21,SR-ATAD5,259,7279,0,7538,3.44
+tox21,SR-HSE,356,7182,0,7538,4.72
+tox21,SR-MMP,879,6659,0,7538,11.66
+tox21,SR-p53,409,7129,0,7538,5.43
+clintox,FDA_APPROVED,1338,41,0,1379,97.03
+clintox,CT_TOX,58,1321,0,1379,4.21
+sider,Hepatobiliary disorders,718,632,0,1350,53.19
+sider,Metabolism and nutrition disorders,945,405,0,1350,70.0
+sider,Product issues,21,1329,0,1350,1.56
+sider,Eye disorders,840,510,0,1350,62.22
+sider,Investigations,1101,249,0,1350,81.56
+sider,Musculoskeletal and connective tissue disorders,947,403,0,1350,70.15
+sider,Gastrointestinal disorders,1230,120,0,1350,91.11
+sider,Social circumstances,245,1105,0,1350,18.15
+sider,Immune system disorders,977,373,0,1350,72.37
+sider,Reproductive system and breast disorders,701,649,0,1350,51.93
+sider,"Neoplasms benign, malignant and unspecified (incl cysts and polyps)",368,982,0,1350,27.26
+sider,General disorders and administration site conditions,1230,120,0,1350,91.11
+sider,Endocrine disorders,313,1037,0,1350,23.19
+sider,Surgical and medical procedures,205,1145,0,1350,15.19
+sider,Vascular disorders,1057,293,0,1350,78.3
+sider,Blood and lymphatic system disorders,856,494,0,1350,63.41
+sider,Skin and subcutaneous tissue disorders,1253,97,0,1350,92.81
+sider,"Congenital, familial and genetic disorders",249,1101,0,1350,18.44
+sider,Infections and infestations,956,394,0,1350,70.81
+sider,"Respiratory, thoracic and mediastinal disorders",1006,344,0,1350,74.52
+sider,Psychiatric disorders,963,387,0,1350,71.33
+sider,Renal and urinary disorders,869,481,0,1350,64.37
+sider,"Pregnancy, puerperium and perinatal conditions",123,1227,0,1350,9.11
+sider,Ear and labyrinth disorders,625,725,0,1350,46.3
+sider,Cardiac disorders,939,411,0,1350,69.56
+sider,Nervous system disorders,1239,111,0,1350,91.78
+sider,"Injury, poisoning and procedural complications",897,453,0,1350,66.44
