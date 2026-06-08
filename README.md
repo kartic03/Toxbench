@@ -1,6 +1,6 @@
 # ToxBench
 
-A leakage-safe classification benchmark for predictive toxicology with calibration, uncertainty, and domain-shift analysis.
+A leakage-audited classification benchmark for predictive toxicology with calibration, uncertainty, and domain-shift analysis.
 
 ## Graphical Abstract
 **Click the link to see the graphical abstract:** https://kartic03.github.io/Toxbench/
@@ -80,6 +80,11 @@ toxbench/
 ├── environment.yml    # Conda environment
 └── requirements.txt   # pip dependencies
 ```
+
+## Data availability & reproducibility
+- Cleaned per-dataset datasets (`data/processed/*_clean.csv`), SMILES order, raw CSVs, and all 30 split files are released here.
+- Precomputed ECFP4 fingerprints (`*_ecfp4.npy`) are **not** tracked (the Tox21 array exceeds GitHub's file-size limit); regenerate them with `python src/pipeline/compute_fingerprints.py`. A complete archive including the fingerprints is provided on Zenodo (DOI to be added).
+- `supplementary_files/` contains the revision outputs: per-task statistics (S5), per-task AUROC/AUPRC (S6/S7), the quantitative leakage audit (S8), the cross-dataset multi-task learning pilot (S9), the macro benchmark table (S10), and the figures.
 
 ## Citation
 (to be added after publication)
