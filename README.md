@@ -83,7 +83,7 @@ toxbench/
 
 ## Data availability & reproducibility
 - Cleaned per-dataset datasets (`data/processed/*_clean.csv`), SMILES order, raw CSVs, and all 30 split files are released here.
-- Precomputed ECFP4 fingerprints (`*_ecfp4.npy`) are **not** tracked (the Tox21 array exceeds GitHub's file-size limit); regenerate them with `python src/pipeline/compute_fingerprints.py`. A complete archive including the fingerprints is provided on Zenodo (DOI to be added).
+- Precomputed ECFP4 fingerprints (`*_ecfp4.npy`) are **not** tracked (the Tox21 array exceeds GitHub's file-size limit); regenerate them with `python src/pipeline/compute_fingerprints.py`. A complete archive including the fingerprints is provided on Zenodo: https://doi.org/10.5281/zenodo.20619047.
 - `supplementary_files/` contains the revision outputs: per-task statistics (S5), per-task AUROC/AUPRC (S6/S7), the quantitative leakage audit (S8), the cross-dataset multi-task learning pilot (S9), the macro benchmark table (S10), and the figures.
 
 ## Citation
