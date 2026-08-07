@@ -84,7 +84,8 @@ toxbench/
 ## Data availability & reproducibility
 - Cleaned per-dataset datasets (`data/processed/*_clean.csv`), SMILES order, raw CSVs, and all 30 split files are released here.
 - Precomputed ECFP4 fingerprints (`*_ecfp4.npy`) are **not** tracked (the Tox21 array exceeds GitHub's file-size limit); regenerate them with `python src/pipeline/compute_fingerprints.py`. A complete archive including the fingerprints is provided on Zenodo: https://doi.org/10.5281/zenodo.20484478.
-- `supplementary_files/` contains the revision outputs: per-task statistics (S5), per-task AUROC/AUPRC (S6/S7), the quantitative leakage audit (S8), the cross-dataset multi-task learning pilot (S9), the macro benchmark table (S10), and the figures.
+- `supplementary_files/` contains the revision outputs: per-task statistics (Table S2), the macro benchmark table (S4), per-task AUROC/AUPRC (S5/S6), the quantitative leakage audit (S9), the cross-dataset multi-task learning pilot (S10), and the figures.
+- Source of the raw data: the MoleculeNet collection distributed with DeepChem — https://deepchem.readthedocs.io/en/latest/api_reference/moleculenet.html (loaders `load_tox21`, `load_clintox`, `load_sider`, DeepChem v2.8.0). The source files can also be downloaded directly from https://deepchemdata.s3.us-west-1.amazonaws.com/datasets/ (`tox21.csv.gz`, `clintox.csv.gz`, `sider.csv.gz`).
 
 ## Citation
 (to be added after publication)
