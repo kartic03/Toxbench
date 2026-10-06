@@ -1,0 +1,57 @@
+cff-version: 1.2.0
+message: "If you use this benchmark, please cite the article below."
+title: ToxBench
+abstract: >-
+  A leakage-audited multi-task classification benchmark for predictive
+  toxicology on Tox21, ClinTox and SIDER, reporting calibration, uncertainty
+  and applicability domain alongside accuracy.
+type: software
+license: MIT
+repository-code: "https://github.com/kartic03/Toxbench"
+url: "https://kartic03.github.io/Toxbench/"
+keywords:
+  - predictive toxicology
+  - benchmark
+  - data leakage
+  - scaffold split
+  - calibration
+  - applicability domain
+authors:
+  - family-names: Kartic
+    orcid: "https://orcid.org/0009-0005-5939-4192"
+  - family-names: Seo
+    given-names: Yeeun
+    orcid: "https://orcid.org/0009-0003-9857-9267"
+  - family-names: Yi
+    given-names: Sanggyun
+    orcid: "https://orcid.org/0009-0008-5570-9478"
+  - family-names: Park
+    given-names: Tae-Sik
+    orcid: "https://orcid.org/0000-0002-4629-947X"
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.20484478
+    description: >-
+      Archived release including the precomputed fingerprints that are too
+      large to track in git.
+preferred-citation:
+  type: article
+  title: >-
+    ToxBench: a leakage-audited multi-task benchmark for predictive toxicology with calibration, uncertainty, and applicability domain analysis
+  authors:
+    - family-names: Kartic
+      orcid: "https://orcid.org/0009-0005-5939-4192"
+    - family-names: Seo
+      given-names: Yeeun
+      orcid: "https://orcid.org/0009-0003-9857-9267"
+    - family-names: Yi
+      given-names: Sanggyun
+      orcid: "https://orcid.org/0009-0008-5570-9478"
+    - family-names: Park
+      given-names: Tae-Sik
+      orcid: "https://orcid.org/0000-0002-4629-947X"
+  journal: BMC Bioinformatics
+  year: 2026
+  month: 9
+  doi: 10.1186/s12859-026-06621-x
+  url: "https://doi.org/10.1186/s12859-026-06621-x"
