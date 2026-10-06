@@ -115,4 +115,5 @@ GitHub reads `CITATION.cff` in this repository, so the "Cite this repository"
 button in the sidebar returns the same entry in APA or BibTeX.
 
 ## License
-MIT
+
+MIT. See [LICENSE](LICENSE).
