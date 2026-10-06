@@ -93,7 +93,26 @@ toxbench/
   They were originally obtained with the `load_tox21`, `load_clintox` and `load_sider` loaders of DeepChem v2.8.0, which retrieve the same files.
 
 ## Citation
-(to be added after publication)
+
+Kartic, Seo, Y., Yi, S. et al. ToxBench: a leakage-audited multi-task benchmark for predictive toxicology with calibration, uncertainty, and applicability domain analysis. *BMC Bioinformatics* (2026).
+https://doi.org/10.1186/s12859-026-06621-x
+
+```bibtex
+@article{kartic2026toxbench,
+  title   = {{ToxBench: a leakage-audited multi-task benchmark for predictive toxicology with calibration, uncertainty, and applicability domain analysis}},
+  author  = {Kartic and Seo, Yeeun and Yi, Sanggyun and Park, Tae-Sik},
+  journal = {BMC Bioinformatics},
+  year    = {2026},
+  doi     = {10.1186/s12859-026-06621-x},
+  url     = {https://doi.org/10.1186/s12859-026-06621-x}
+}
+```
+
+The archived release including the precomputed fingerprints is on Zenodo:
+https://doi.org/10.5281/zenodo.20484478
+
+GitHub reads `CITATION.cff` in this repository, so the "Cite this repository"
+button in the sidebar returns the same entry in APA or BibTeX.
 
 ## License
 MIT
