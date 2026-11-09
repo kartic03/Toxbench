@@ -6,18 +6,30 @@ A leakage-audited classification benchmark for predictive toxicology with calibr
 **Click the link to see the graphical abstract:** https://kartic03.github.io/Toxbench/
 
 ## Datasets
-- **Tox21** — 12 tasks, 7,538 compounds after cleaning
-- **ClinTox** — 2 tasks, 1,379 compounds after cleaning  
-- **SIDER** — 27 tasks, 1,350 compounds after cleaning
+- **Tox21**: 12 tasks, 7,538 compounds after cleaning
+- **ClinTox**: 2 tasks, 1,379 compounds after cleaning  
+- **SIDER**: 27 tasks, 1,350 compounds after cleaning
 
 ## Models
 - Random Forest (ECFP4 fingerprints)
 - XGBoost (ECFP4 fingerprints)
 - MLP (ECFP4 fingerprints, GPU)
-- GNN — Graph Isomorphism Network (GPU)
+- GNN: Graph Isomorphism Network (GPU)
 
 ## Key Finding
-Scaffold-based splitting reduces AUROC by 0.03–0.08 points across all model classes, demonstrating systematic performance overestimation under random splitting.
+On **Tox21**, scaffold-based splitting reduces macro-AUROC by 0.057 to 0.079 points for every model class, so random splitting systematically overestimates performance on that dataset.
+
+The effect is dataset-dependent, and the two smaller benchmarks do not reproduce it:
+
+| Dataset | Drop under scaffold splitting (4 models) | Seed-to-seed SD |
+|---|---|---|
+| Tox21 | -0.057 to -0.079 | 0.018 to 0.029 |
+| SIDER | -0.035 to +0.015 | 0.015 to 0.039 |
+| ClinTox | **+0.051 to +0.192** | up to **0.160** |
+
+ClinTox reverses, scoring *higher* under scaffold splitting, but its test fold holds roughly 140 compounds and its seed-to-seed spread reaches ±0.16 AUROC, with individual seeds between 0.32 and 0.75. That is instability rather than a finding, and it is the reason the benchmark reports calibration, uncertainty and applicability domain alongside AUROC rather than ranking models on AUROC alone.
+
+All numbers above are computed from `results/*.json` using the macro-average aggregation in `src/evaluation/make_fig1.py`.
 
 ## Quick Start
 
